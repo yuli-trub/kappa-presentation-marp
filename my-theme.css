@@ -1,0 +1,128 @@
+/* @theme my-theme */
+
+@import 'default';
+/* @font-face {
+    font-family: "Yantramanav";
+    src: url("https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap")} */
+
+body {
+    font-family: "Yantramanav";
+    font-weight: light;
+    display: block;
+    margin: 0;
+    color: #000000;
+}   
+
+h1 {
+    font-size: 60px;
+    font-weight: 300;
+    
+}
+p {
+    font-size: 22px;
+    font-weight: "regular";
+    padding-left: 0px;
+
+}
+ol, ul{
+    font-size: 22px;
+    font-weight: "regular";
+    padding-left: 20px;
+
+}
+
+section {
+    width: 1897px;
+    height: 1069px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+.flex-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+
+}
+
+
+/* header with logo */
+.header{
+   padding: 0;
+   margin: 0;
+}
+
+.logo{
+    margin: 35px 67px;
+    padding:0;
+    height: 75px;
+    width: 62px;
+}
+
+/* menu styling */
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 44px;
+    margin-right:44px
+    
+}
+.menu__text{
+    font-size: 16px;
+    font-weight: 300;
+    margin:0;
+}
+
+.menu__item{
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+.menu__number{
+    font-size: 16px;
+    font-weight: 300;
+    margin-right: 14px
+}
+
+.menu__current-sign{
+    height: 11px;
+    margin-left: 6px
+}
+
+.menu__current{
+    display: flex;
+    align-items: center;
+}
+
+/* main content */
+
+.main{
+margin-right: 24px
+}
+
+.main h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin: 0;
+    margin-bottom: 43px;
+}
+
+.content__info{
+    width: 500px;
+}
+
+.bg-placeholder{
+    background-color: #4DBF3B;
+    width: 1095px;
+    height: 828px;
+    margin-right: 33px;
+}
+
+.main li{
+    margin-top: 22px
+
+}
