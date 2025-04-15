@@ -20,7 +20,6 @@ h1 {
     font-weight: 300;
     padding: 0;
     color: #000000;
-    
 }
 p {
     font-size: 22px;
@@ -28,6 +27,7 @@ p {
     padding-left: 0px;
     letter-spacing: -0.5px;
     color: #000000;
+    
 
 }
 ol, ul{
@@ -56,11 +56,22 @@ section {
 
 }
 
+.content__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height:100%;
+    width: 100%;
+}
+
 /* ===== COMMON ===== */
 
 /* header with logo */
 .header{
     position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     top : 0;
     left: 0;
     right: 0;
@@ -71,6 +82,12 @@ section {
     padding:0;
     height: 75px;
     width: 62px;
+    margin-right: 79px;
+}
+
+.header__timeline{
+    margin: 0;
+    width: 1655px;;
 }
 
 
@@ -112,11 +129,19 @@ section {
     margin: 0;
 }
 
+.menu__inner-list{
+padding-left: 40px;
+}
+
+
 .menu__text {
     font-size: 16px;
     font-weight: 400;
     margin:0;
     letter-spacing: 0px;
+}
+.menu__text--selected{
+    text-decoration: underline #FFD200 ;
 }
 
 .menu__item{
@@ -155,9 +180,11 @@ margin-right: 12px;
     margin-bottom: 43px;
 }
 
-.objectives__info{
-    width: 456px;
+.content__info{
+    width: 480px;
 }
+
+
 
 .bg-placeholder{
     background-color: #4DBF3B;
@@ -168,7 +195,9 @@ margin-right: 12px;
 }
 
 .main p{
-    margin-top: 22px
+    margin-bottom: 22px
+    
+    
 
 }
 
@@ -192,4 +221,9 @@ margin-right: 12px;
     align-items: flex-end;
     overflow: visible;
     width: 1543px;
+}
+
+/* ==== RESEARCH SLIDE====== */
+.research__text {
+    line-height: 30px;
 }
