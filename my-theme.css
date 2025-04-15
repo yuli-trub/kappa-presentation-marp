@@ -1,15 +1,21 @@
 /* @theme my-theme */
 
 @import 'default';
-/* @font-face {
-    font-family: "Yantramanav";
-    src: url("https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap")} */
 
 /* ==== GENERAL PRESETS ====*/
 
-body {
+:root {
+    width: 1897px;
+    height: 1069px;
+    padding: 0;
+    margin: 0;
     font-family: "Yantramanav";
-    font-weight: light;
+    box-sizing: border-box;
+    background-color: #EDEDED;
+  }
+
+
+body {
     display: block;
     margin: 0;
     
@@ -37,16 +43,6 @@ ol, ul{
     padding:0
 
 }
-
-section {
-    width: 1897px;
-    height: 1069px;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    background-color: #EDEDED;
-  }
-
 
 
 /* wraps tha nav and content */
@@ -196,7 +192,7 @@ margin-right: 12px;
 
 /* text block */
 .content__info{
-    width: 480px;
+    width: 430px;
 }
 
 .content__info--med-wide{
@@ -245,7 +241,7 @@ margin-right: 12px;
 
 /* ===== SOLUTIONS SLIDE */
 .content__solution{
-    width: 1550px;
+    width: 1540px;
 }
 
 .solution__timeline{
@@ -267,6 +263,10 @@ margin-right: 12px;
 /* ==== RESEARCH SLIDE====== */
 .research__text {
     line-height: 29px;
+}
+
+.research__info{
+    width: 470px;
 }
 
 
