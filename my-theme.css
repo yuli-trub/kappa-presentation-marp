@@ -5,29 +5,36 @@
     font-family: "Yantramanav";
     src: url("https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap")} */
 
+/* ==== GENERAL PRESETS ====*/
+
 body {
     font-family: "Yantramanav";
     font-weight: light;
     display: block;
     margin: 0;
-    color: #000000;
+    
 }   
 
 h1 {
     font-size: 60px;
     font-weight: 300;
+    padding: 0;
+    color: #000000;
     
 }
 p {
     font-size: 22px;
-    font-weight: "regular";
+    font-weight: 400;
     padding-left: 0px;
+    letter-spacing: -0.5px;
+    color: #000000;
 
 }
 ol, ul{
+    font-family: "Yantramanav";
     font-size: 22px;
-    font-weight: "regular";
-    padding-left: 20px;
+    font-weight: 400;
+    padding:0
 
 }
 
@@ -37,28 +44,57 @@ section {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: #EDEDED;
   }
 
 .flex-wrapper{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-
+    margin-top: 172px;
+    height:100%;
 
 }
 
+/* ===== COMMON ===== */
 
 /* header with logo */
 .header{
-   padding: 0;
-   margin: 0;
+    position: fixed;
+    top : 0;
+    left: 0;
+    right: 0;
+   padding: 40px 34px 0 67px;
 }
 
 .logo{
-    margin: 35px 67px;
     padding:0;
     height: 75px;
     width: 62px;
+}
+
+
+/* footer */
+.footer{
+    position: fixed;
+    bottom : 0;
+    left: 0;
+    right: 0;
+    width: 1830px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 17px 17px 34px;
+
+   
+}
+
+.footer__text{
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+    color: #ACAFA8;
+    
 }
 
 /* menu styling */
@@ -66,14 +102,21 @@ section {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    margin-left: 44px;
-    margin-right:44px
+    margin: 8px 34px 0 44px;
     
 }
-.menu__text{
+
+.menu li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu__text {
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
     margin:0;
+    letter-spacing: 0px;
 }
 
 .menu__item{
@@ -98,21 +141,22 @@ section {
     align-items: center;
 }
 
-/* main content */
+/* main content business objectives */
 
 .main{
-margin-right: 24px
+margin-right: 12px;
 }
 
 .main h1{
     font-size: 60px;
     font-weight: 100;
     margin: 0;
+    padding:0;
     margin-bottom: 43px;
 }
 
-.content__info{
-    width: 500px;
+.objectives__info{
+    width: 456px;
 }
 
 .bg-placeholder{
@@ -120,9 +164,32 @@ margin-right: 24px
     width: 1095px;
     height: 828px;
     margin-right: 33px;
+    margin-bottom: 34px
 }
 
-.main li{
+.main p{
     margin-top: 22px
 
+}
+
+
+/* ===== SOLUTIONS SLIDE */
+.content__solution{
+    width: 1550px;
+}
+
+.solution__timeline{
+    margin-top: 127px;
+    width: 1655px;
+    height:92px;
+    margin-right: 33px
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    overflow: visible;
+    width: 1543px;
 }
