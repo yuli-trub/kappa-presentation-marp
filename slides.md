@@ -81,7 +81,7 @@ footer: "<div class='footer'>
     <div class='content__wrapper'>
     <div class='main'>
         <h1>Business Objectives</h1>
-        <div class='content__info'>
+        <div class='business__info'>
             <p>An informationally rich and visually engaging website would help RDDS achieve its business objectives:</p>
             <p> 1. Bring across the capability of the company to perform as a ‘big player’ and provide bespoke quality products in an international markets despite being seen as a UK specialist.</p>
             <p> 2. Expand business to the land and sea markets.</p>
@@ -265,7 +265,7 @@ header: "<div class='header'>
 <div class='content__wrapper'>
    <div class='main'>
         <h1>Research</h1>
-        <div class='research__info'>
+        <div class='content__info'>
                <p>This is the first phase of the process. Here we will assess key information in order to better understand what the company offers and stands for, along with accessing crucial industry knowledge. <p>
                 <p class='main__subheader'>Research on Product Range and Industry:</p>
                 <p>- ‘Meet’ the team - get information on employees and relevant internal processes</p>

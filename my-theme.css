@@ -192,7 +192,7 @@ margin-right: 12px;
 
 /* text block */
 .content__info{
-    width: 430px;
+    width: 470px;
 }
 
 .content__info--med-wide{
@@ -243,6 +243,9 @@ margin-right: 12px;
 .content__solution{
     width: 1540px;
 }
+.business__info{
+    width: 420px;
+}
 
 .solution__timeline{
     margin-top: 127px;
@@ -265,9 +268,7 @@ margin-right: 12px;
     line-height: 29px;
 }
 
-.research__info{
-    width: 470px;
-}
+
 
 
 /* ==== QUALITY SLIDES */
