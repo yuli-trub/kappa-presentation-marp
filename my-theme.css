@@ -47,6 +47,9 @@ section {
     background-color: #EDEDED;
   }
 
+
+
+/* wraps tha nav and content */
 .flex-wrapper{
     display: flex;
     justify-content: flex-start;
@@ -56,6 +59,7 @@ section {
 
 }
 
+/* wraps the main text bit and the placeholder */
 .content__wrapper{
     display: flex;
     justify-content: space-between;
@@ -127,6 +131,7 @@ section {
     list-style: none;
     padding: 0;
     margin: 0;
+    max-width: 190px;
 }
 
 .menu__inner-list{
@@ -166,10 +171,10 @@ padding-left: 40px;
     align-items: center;
 }
 
-/* main content business objectives */
-
-.main{
+/* main content: header and text */
+.main {
 margin-right: 12px;
+
 }
 
 .main h1{
@@ -177,16 +182,34 @@ margin-right: 12px;
     font-weight: 100;
     margin: 0;
     padding:0;
-    margin-bottom: 43px;
+    margin-bottom: 30px;
+    /* white-space: nowrap; */
 }
 
+.main__subheader{
+    font-weight:700;
+}
+
+.main p{
+    margin-bottom: 30px
+}
+
+/* text block */
 .content__info{
     width: 480px;
 }
 
+.content__info--med-wide{
+    width: 630px;
+}
+
+.content__info--medium{
+    width: 536px;
+}
 
 
-.bg-placeholder{
+/* green placeholders */
+.bg-placeholder--large{
     background-color: #4DBF3B;
     width: 1095px;
     height: 828px;
@@ -194,12 +217,30 @@ margin-right: 12px;
     margin-bottom: 34px
 }
 
-.main p{
-    margin-bottom: 22px
-    
-    
-
+.bg-placeholder--medium{
+    background-color: #4DBF3B;
+    width: 950px;
+    height: 828px;
+    margin-right: 33px;
+    margin-bottom: 34px
 }
+
+.bg-placeholder--small{
+    background-color: #4DBF3B;
+    width: 305px;
+    height: 828px;
+    margin-right: 33px;
+    margin-bottom: 34px
+}
+
+.bg-placeholder--smaller{
+    background-color: #4DBF3B;
+    width: 567px;
+    height: 828px;
+    margin-right: 33px;
+    margin-bottom: 34px
+}
+
 
 
 /* ===== SOLUTIONS SLIDE */
@@ -225,5 +266,35 @@ margin-right: 12px;
 
 /* ==== RESEARCH SLIDE====== */
 .research__text {
+    line-height: 29px;
+}
+
+
+/* ==== QUALITY SLIDES */
+.quality__info{
+    width: 713px;
+    margin-right: 50px;
     line-height: 30px;
 }
+
+.quality__placeholder{
+    width: 814px;
+}
+
+.quality__image {
+    margin-left: 150px;
+}
+
+/* ===== DEVELOPMENT ==== */
+
+.development__info {
+    line-height: 30px;
+}
+
+.seo__info {
+    line-height: 32px;
+}
+
+
+
+
