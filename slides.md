@@ -7,12 +7,17 @@ theme: my-theme
 @import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
 </style>
 
-## <!-- ===== BUSINESS OBJECTIVES ===== -->
+<!--
+header: "<div class='header'>
+            <img class='logo' src='./assets/Logo.svg'>
+        </div>"
+footer: "<div class='footer'>
+            <p class='footer__text'>KAPPA / LONDON </p>
+            <p class='footer__text'>x RDDS </p>
+        </div>"
+-->
 
-<!-- header -->
-<div class='header'>
-    <img class='logo' src='./assets/Logo.svg'>
-</div>
+## <!-- ===== BUSINESS OBJECTIVES ===== -->
 
 <!-- side bit - repeated many times - change the seleceted on each slide -->
 <div class='flex-wrapper'>
@@ -20,56 +25,56 @@ theme: my-theme
     <ul class= 'menu'>
         <li class='menu__item'>
             <span class='menu__number'>0</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Introduction</p>
         </li>
         <li class='menu__current'>
             <span class='menu__number'>1</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Business Objectives</p>
-            <img src='./assets/Vector.svg' class="menu__current-sign">
+            <img src='./assets/selected_arrow.svg' class='menu__current-sign'>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>2</span><p class="menu__text">Solution Overview</p>
+            <span class='menu__number'>2</span><p class='menu__text'>Solution Overview</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>3</span><p class="menu__text">Research</p>
+            <span class='menu__number'>3</span><p class='menu__text'>Research</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>4</span><p class="menu__text">User Experience</p>
+            <span class='menu__number'>4</span><p class='menu__text'>User Experience</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>5</span><p class="menu__text">Wireframe</p>
+            <span class='menu__number'>5</span><p class='menu__text'>Wireframe</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>6</span><p class="menu__text">Content Gathering</p>
+            <span class='menu__number'>6</span><p class='menu__text'>Content Gathering</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>7</span><p class="menu__text">3D and Quality Imagery</p>
+            <span class='menu__number'>7</span><p class='menu__text'>3D and Quality Imagery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>8</span><p class="menu__text">Branding and UI - Style, Feel & Mock-Ups </p>
+            <span class='menu__number'>8</span><p class='menu__text'>Branding and UI - Style, Feel & Mock-Ups </p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>9</span><p class="menu__text">Development</p>
+            <span class='menu__number'>9</span><p class='menu__text'>Development</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>10</span><p class="menu__text">SEO</p>
+            <span class='menu__number'>10</span><p class='menu__text'>SEO</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>11</span><p class="menu__text">Analytics</p>
+            <span class='menu__number'>11</span><p class='menu__text'>Analytics</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>12</span><p class="menu__text">Live Chat</p>
+            <span class='menu__number'>12</span><p class='menu__text'>Live Chat</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>13</span><p class="menu__text">Delivery</p>
+            <span class='menu__number'>13</span><p class='menu__text'>Delivery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>14</span><p class="menu__text">Maintenance</p>
+            <span class='menu__number'>14</span><p class='menu__text'>Maintenance</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>15</span><p class="menu__text">Conclusions</p>
+            <span class='menu__number'>15</span><p class='menu__text'>Conclusions</p>
         </li>
     </ul>
     <!-- content -->
@@ -82,14 +87,8 @@ theme: my-theme
             <p> 2. Expand business to the land and sea markets.</p>
         </div>
     </div>
-    <div class="bg-placeholder--large"></div>
+    <div class='bg-placeholder--large'></div>
     </div>
-</div>
-
-<!-- footer -->
-<div class="footer">
-    <p class="footer__text">KAPPA / LONDON </p>
-    <p class="footer__text">x RDDS </p>
 </div>
 
 ---
@@ -107,61 +106,61 @@ theme: my-theme
  <ul class= 'menu'>
         <li class='menu__item'>
             <span class='menu__number'>0</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Introduction</p>
         </li>
         <li class='menu__item'>
             <span class='menu__number'>1</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Business Objectives</p>
         </li>
         <li class='menu__current'>
-            <span class='menu__number'>2</span><p class="menu__text">Solution Overview</p>
-             <img src='./assets/Vector.svg' class="menu__current-sign">
+            <span class='menu__number'>2</span><p class='menu__text'>Solution Overview</p>
+             <img src='./assets/selected_arrow.svg' class='menu__current-sign'>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>3</span><p class="menu__text">Research</p>
+            <span class='menu__number'>3</span><p class='menu__text'>Research</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>4</span><p class="menu__text">User Experience</p>
+            <span class='menu__number'>4</span><p class='menu__text'>User Experience</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>5</span><p class="menu__text">Wireframe</p>
+            <span class='menu__number'>5</span><p class='menu__text'>Wireframe</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>6</span><p class="menu__text">Content Gathering</p>
+            <span class='menu__number'>6</span><p class='menu__text'>Content Gathering</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>7</span><p class="menu__text">3D and Quality Imagery</p>
+            <span class='menu__number'>7</span><p class='menu__text'>3D and Quality Imagery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>8</span><p class="menu__text">Branding and UI - Style, Feel & Mock-Ups </p>
+            <span class='menu__number'>8</span><p class='menu__text'>Branding and UI - Style, Feel & Mock-Ups </p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>9</span><p class="menu__text">Development</p>
+            <span class='menu__number'>9</span><p class='menu__text'>Development</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>10</span><p class="menu__text">SEO</p>
+            <span class='menu__number'>10</span><p class='menu__text'>SEO</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>11</span><p class="menu__text">Analytics</p>
+            <span class='menu__number'>11</span><p class='menu__text'>Analytics</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>12</span><p class="menu__text">Live Chat</p>
+            <span class='menu__number'>12</span><p class='menu__text'>Live Chat</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>13</span><p class="menu__text">Delivery</p>
+            <span class='menu__number'>13</span><p class='menu__text'>Delivery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>14</span><p class="menu__text">Maintenance</p>
+            <span class='menu__number'>14</span><p class='menu__text'>Maintenance</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>15</span><p class="menu__text">Conclusions</p>
+            <span class='menu__number'>15</span><p class='menu__text'>Conclusions</p>
         </li>
     </ul>
 
 <!-- content -->
-<div class="wrapper">
+<div class='wrapper'>
  <div class='main'>
     <h1>Solution Overview
     </h1>
@@ -176,25 +175,26 @@ theme: my-theme
     </div>
 
  </div>
-    <img src="./assets/timeline.svg" class="solution__timeline" alt="Process timeline">
+    <img src='./assets/timeline.svg' class='solution__timeline' alt='Process timeline'>
 </div>
 </div>
 
 <!-- footer -->
-<div class="footer">
-    <p class="footer__text">KAPPA / LONDON </p>
-    <p class="footer__text">x RDDS </p>
+<div class='footer'>
+    <p class='footer__text'>KAPPA / LONDON </p>
+    <p class='footer__text'>x RDDS </p>
 </div>
 
 ---
 
-## <!-- ===== RESEARCH ===== -->
+<!--
+header: "<div class='header'>
+            <img class='logo' src='./assets/Logo.svg'>
+            <img src='./assets/timeline.svg' class='header__timeline' alt='Process timeline'>
+        </div>"
+-->
 
-<!-- header -->
-<div class='header'>
-    <img class='logo' src='./assets/Logo.svg'>
-    <img src="./assets/timeline.svg" class="header__timeline" alt="Process timeline">
-</div>
+## <!-- ===== RESEARCH ===== -->
 
 <div class='flex-wrapper'>
     
@@ -202,62 +202,62 @@ theme: my-theme
  <ul class= 'menu'>
         <li class='menu__item'>
             <span class='menu__number'>0</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Introduction</p>
         </li>
         <li class='menu__item'>
             <span class='menu__number'>1</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Business Objectives</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>2</span><p class="menu__text">Solution Overview</p>
+            <span class='menu__number'>2</span><p class='menu__text'>Solution Overview</p>
         </li>
           <li class='menu__current'>
-            <span class='menu__number'>3</span><p class="menu__text">Research</p>
-               <img src='./assets/Vector.svg' class="menu__current-sign">
+            <span class='menu__number'>3</span><p class='menu__text'>Research</p>
+               <img src='./assets/selected_arrow.svg' class='menu__current-sign'>
         </li>
         <!-- inner list -->
-            <ul class="menu__inner-list">
+            <ul class='menu__inner-list'>
                 <li class='menu__text menu__text--selected'>RDDS Team</li>
                 <li class='menu__text'>RDDS Target Market</li>
                 <li class='menu__text'>RDDS Competition</li>
             </ul>
         <li class='menu__item'>
-            <span class='menu__number'>4</span><p class="menu__text">User Experience</p>
+            <span class='menu__number'>4</span><p class='menu__text'>User Experience</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>5</span><p class="menu__text">Wireframe</p>
+            <span class='menu__number'>5</span><p class='menu__text'>Wireframe</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>6</span><p class="menu__text">Content Gathering</p>
+            <span class='menu__number'>6</span><p class='menu__text'>Content Gathering</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>7</span><p class="menu__text">3D and Quality Imagery</p>
+            <span class='menu__number'>7</span><p class='menu__text'>3D and Quality Imagery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>8</span><p class="menu__text">Branding and UI - Style, Feel & Mock-Ups </p>
+            <span class='menu__number'>8</span><p class='menu__text'>Branding and UI - Style, Feel & Mock-Ups </p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>9</span><p class="menu__text">Development</p>
+            <span class='menu__number'>9</span><p class='menu__text'>Development</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>10</span><p class="menu__text">SEO</p>
+            <span class='menu__number'>10</span><p class='menu__text'>SEO</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>11</span><p class="menu__text">Analytics</p>
+            <span class='menu__number'>11</span><p class='menu__text'>Analytics</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>12</span><p class="menu__text">Live Chat</p>
+            <span class='menu__number'>12</span><p class='menu__text'>Live Chat</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>13</span><p class="menu__text">Delivery</p>
+            <span class='menu__number'>13</span><p class='menu__text'>Delivery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>14</span><p class="menu__text">Maintenance</p>
+            <span class='menu__number'>14</span><p class='menu__text'>Maintenance</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>15</span><p class="menu__text">Conclusions</p>
+            <span class='menu__number'>15</span><p class='menu__text'>Conclusions</p>
         </li>
     </ul>
 
@@ -267,35 +267,23 @@ theme: my-theme
         <h1>Research</h1>
         <div class='content__info'>
                <p>This is the first phase of the process. Here we will assess key information in order to better understand what the company offers and stands for, along with accessing crucial industry knowledge. <p>
-                <p class="main__subheader">Research on Product Range and Industry:</p>
+                <p class='main__subheader'>Research on Product Range and Industry:</p>
                 <p>- ‘Meet’ the team - get information on employees and relevant internal processes</p>
                 <p>- Understand and document manufacturing processes</p>
                 <p>- Understand and document products and product categories (e.g. which are the best selling products?)</p>
-                <p class="main__subheader">Research on the Visual and Feel:</p>
+                <p class='main__subheader'>Research on the Visual and Feel:</p>
                 <p>- Access and assess brandbook/styleguide to get a general feel of the brand style and its values</p>
                 <p>- Access and assess current visual/text assets</p>
         </div>
     </div>
-    <div class="bg-placeholder--large"></div>
+    <div class='bg-placeholder--large'></div>
 
  </div>
-</div>
-
-<!-- footer -->
-<div class="footer">
-    <p class="footer__text">KAPPA / LONDON </p>
-    <p class="footer__text">x RDDS </p>
 </div>
 
 ---
 
 ## <!-- ==== RESEARCH 2 ===== -->
-
-<!-- header -->
-<div class='header'>
-    <img class='logo' src='./assets/Logo.svg'>
-    <img src="./assets/timeline.svg" class="header__timeline" alt="Process timeline">
-</div>
 
 <div class='flex-wrapper'>
     
@@ -303,62 +291,62 @@ theme: my-theme
  <ul class= 'menu'>
         <li class='menu__item'>
             <span class='menu__number'>0</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Introduction</p>
         </li>
         <li class='menu__item'>
             <span class='menu__number'>1</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Business Objectives</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>2</span><p class="menu__text">Solution Overview</p>
+            <span class='menu__number'>2</span><p class='menu__text'>Solution Overview</p>
         </li>
           <li class='menu__current'>
-            <span class='menu__number'>3</span><p class="menu__text">Research</p>
-               <img src='./assets/Vector.svg' class="menu__current-sign">
+            <span class='menu__number'>3</span><p class='menu__text'>Research</p>
+               <img src='./assets/selected_arrow.svg' class='menu__current-sign'>
         </li>
          <!-- inner list -->
-            <ul class="menu__inner-list">
+            <ul class='menu__inner-list'>
                 <li class='menu__text'>RDDS Team</li>
                 <li class='menu__text menu__text--selected'>RDDS Target Market</li>
                 <li class='menu__text'>RDDS Competition</li>
             </ul>
         <li class='menu__item'>
-            <span class='menu__number'>4</span><p class="menu__text">User Experience</p>
+            <span class='menu__number'>4</span><p class='menu__text'>User Experience</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>5</span><p class="menu__text">Wireframe</p>
+            <span class='menu__number'>5</span><p class='menu__text'>Wireframe</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>6</span><p class="menu__text">Content Gathering</p>
+            <span class='menu__number'>6</span><p class='menu__text'>Content Gathering</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>7</span><p class="menu__text">3D and Quality Imagery</p>
+            <span class='menu__number'>7</span><p class='menu__text'>3D and Quality Imagery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>8</span><p class="menu__text">Branding and UI - Style, Feel & Mock-Ups </p>
+            <span class='menu__number'>8</span><p class='menu__text'>Branding and UI - Style, Feel & Mock-Ups </p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>9</span><p class="menu__text">Development</p>
+            <span class='menu__number'>9</span><p class='menu__text'>Development</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>10</span><p class="menu__text">SEO</p>
+            <span class='menu__number'>10</span><p class='menu__text'>SEO</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>11</span><p class="menu__text">Analytics</p>
+            <span class='menu__number'>11</span><p class='menu__text'>Analytics</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>12</span><p class="menu__text">Live Chat</p>
+            <span class='menu__number'>12</span><p class='menu__text'>Live Chat</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>13</span><p class="menu__text">Delivery</p>
+            <span class='menu__number'>13</span><p class='menu__text'>Delivery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>14</span><p class="menu__text">Maintenance</p>
+            <span class='menu__number'>14</span><p class='menu__text'>Maintenance</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>15</span><p class="menu__text">Conclusions</p>
+            <span class='menu__number'>15</span><p class='menu__text'>Conclusions</p>
         </li>
     </ul>
 
@@ -367,38 +355,26 @@ theme: my-theme
    <div class='main'>
         <h1>Research</h1>
         <div class='content__info'>
-                <p class="research__text">In order to better understand the user (their preferences and their journey on the website), we will outline a few user personas and simulate their information seeking process on the RDDS website. This knowledge will enable us to build a website that caters to every customer profile (in terms of communication style and information quantity and organisation), thus improving conversion rates.</p>
-                <p class="research__text">Which are the three most important segments that purchase most often?
+                <p class='research__text'>In order to better understand the user (their preferences and their journey on the website), we will outline a few user personas and simulate their information seeking process on the RDDS website. This knowledge will enable us to build a website that caters to every customer profile (in terms of communication style and information quantity and organisation), thus improving conversion rates.</p>
+                <p class='research__text'>Which are the three most important segments that purchase most often?
                 <br>
                 Who do they work for/what organisation do they represent?
                 <br>
                 How many actions need to be taken or how much time do customers need to make a purchase? <br>
                 Can we make the website’s structure cut down some of these steps (i.e. implementing a configurator that helps the user build a better understanding of the product range)?</p>
-                <p class="research__text">There's also two main relevant groups that should be taken into consideration:<br>
+                <p class='research__text'>There's also two main relevant groups that should be taken into consideration:<br>
                 Knowledgeable (i.e. integrators)<br>
                 Less knowledgeable (i.e. procurement)
                 </p>
         </div>
     </div>
-    <div class="bg-placeholder--large"></div>
+    <div class='bg-placeholder--large'></div>
  </div>
-</div>
-
-<!-- footer -->
-<div class="footer">
-    <p class="footer__text">KAPPA / LONDON </p>
-    <p class="footer__text">x RDDS </p>
 </div>
 
 ---
 
 ## <!-- ===== USER EXPERIENCE  1 ===== -->
-
-<!-- header -->
-<div class='header'>
-    <img class='logo' src='./assets/Logo.svg'>
-    <img src="./assets/timeline.svg" class="header__timeline" alt="Process timeline">
-</div>
 
 <div class='flex-wrapper'>
     
@@ -406,61 +382,61 @@ theme: my-theme
  <ul class= 'menu'>
         <li class='menu__item'>
             <span class='menu__number'>0</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Introduction</p>
         </li>
         <li class='menu__item'>
             <span class='menu__number'>1</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Business Objectives</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>2</span><p class="menu__text">Solution Overview</p>
+            <span class='menu__number'>2</span><p class='menu__text'>Solution Overview</p>
         </li>
           <li class='menu__item'>
-            <span class='menu__number'>3</span><p class="menu__text">Research</p>
+            <span class='menu__number'>3</span><p class='menu__text'>Research</p>
         </li>
         <li class='menu__current'>
-            <span class='menu__number'>4</span><p class="menu__text">User Experience</p>
-             <img src='./assets/Vector.svg' class="menu__current-sign">
+            <span class='menu__number'>4</span><p class='menu__text'>User Experience</p>
+             <img src='./assets/selected_arrow.svg' class='menu__current-sign'>
         </li>
          <!-- inner list -->
-            <ul class="menu__inner-list">
+            <ul class='menu__inner-list'>
                 <li class='menu__text menu__text--selected'>Sitemap</li>
                 <li class='menu__text'>User Scenarios</li>
             </ul>
         <li class='menu__item'>
-            <span class='menu__number'>5</span><p class="menu__text">Wireframe</p>
+            <span class='menu__number'>5</span><p class='menu__text'>Wireframe</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>6</span><p class="menu__text">Content Gathering</p>
+            <span class='menu__number'>6</span><p class='menu__text'>Content Gathering</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>7</span><p class="menu__text">3D and Quality Imagery</p>
+            <span class='menu__number'>7</span><p class='menu__text'>3D and Quality Imagery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>8</span><p class="menu__text">Branding and UI - Style, Feel & Mock-Ups </p>
+            <span class='menu__number'>8</span><p class='menu__text'>Branding and UI - Style, Feel & Mock-Ups </p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>9</span><p class="menu__text">Development</p>
+            <span class='menu__number'>9</span><p class='menu__text'>Development</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>10</span><p class="menu__text">SEO</p>
+            <span class='menu__number'>10</span><p class='menu__text'>SEO</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>11</span><p class="menu__text">Analytics</p>
+            <span class='menu__number'>11</span><p class='menu__text'>Analytics</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>12</span><p class="menu__text">Live Chat</p>
+            <span class='menu__number'>12</span><p class='menu__text'>Live Chat</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>13</span><p class="menu__text">Delivery</p>
+            <span class='menu__number'>13</span><p class='menu__text'>Delivery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>14</span><p class="menu__text">Maintenance</p>
+            <span class='menu__number'>14</span><p class='menu__text'>Maintenance</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>15</span><p class="menu__text">Conclusions</p>
+            <span class='menu__number'>15</span><p class='menu__text'>Conclusions</p>
         </li>
     </ul>
 
@@ -475,25 +451,13 @@ theme: my-theme
                 <p>At this point we will organise a feedback session to discuss the sitemap.</p>
         </div>
     </div>
-    <div class="bg-placeholder--large"></div>
+    <div class='bg-placeholder--large'></div>
  </div>
-</div>
-
-<!-- footer -->
-<div class="footer">
-    <p class="footer__text">KAPPA / LONDON </p>
-    <p class="footer__text">x RDDS </p>
 </div>
 
 ---
 
 ## <!-- ===== UX 2 ===== -->
-
-<!-- header -->
-<div class='header'>
-    <img class='logo' src='./assets/Logo.svg'>
-    <img src="./assets/timeline.svg" class="header__timeline" alt="Process timeline">
-</div>
 
 <div class='flex-wrapper'>
     
@@ -501,61 +465,61 @@ theme: my-theme
  <ul class= 'menu'>
         <li class='menu__item'>
             <span class='menu__number'>0</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Introduction</p>
         </li>
         <li class='menu__item'>
             <span class='menu__number'>1</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Business Objectives</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>2</span><p class="menu__text">Solution Overview</p>
+            <span class='menu__number'>2</span><p class='menu__text'>Solution Overview</p>
         </li>
           <li class='menu__item'>
-            <span class='menu__number'>3</span><p class="menu__text">Research</p>
+            <span class='menu__number'>3</span><p class='menu__text'>Research</p>
         </li>
         <li class='menu__current'>
-            <span class='menu__number'>4</span><p class="menu__text">User Experience</p>
-             <img src='./assets/Vector.svg' class="menu__current-sign">
+            <span class='menu__number'>4</span><p class='menu__text'>User Experience</p>
+             <img src='./assets/selected_arrow.svg' class='menu__current-sign'>
         </li>
         <!-- inner list -->
-            <ul class="menu__inner-list">
+            <ul class='menu__inner-list'>
                 <li class='menu__text '>Sitemap</li>
                 <li class='menu__text menu__text--selected'>User Scenarios</li>
             </ul>
         <li class='menu__item'>
-            <span class='menu__number'>5</span><p class="menu__text">Wireframe</p>
+            <span class='menu__number'>5</span><p class='menu__text'>Wireframe</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>6</span><p class="menu__text">Content Gathering</p>
+            <span class='menu__number'>6</span><p class='menu__text'>Content Gathering</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>7</span><p class="menu__text">3D and Quality Imagery</p>
+            <span class='menu__number'>7</span><p class='menu__text'>3D and Quality Imagery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>8</span><p class="menu__text">Branding and UI - Style, Feel & Mock-Ups </p>
+            <span class='menu__number'>8</span><p class='menu__text'>Branding and UI - Style, Feel & Mock-Ups </p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>9</span><p class="menu__text">Development</p>
+            <span class='menu__number'>9</span><p class='menu__text'>Development</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>10</span><p class="menu__text">SEO</p>
+            <span class='menu__number'>10</span><p class='menu__text'>SEO</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>11</span><p class="menu__text">Analytics</p>
+            <span class='menu__number'>11</span><p class='menu__text'>Analytics</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>12</span><p class="menu__text">Live Chat</p>
+            <span class='menu__number'>12</span><p class='menu__text'>Live Chat</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>13</span><p class="menu__text">Delivery</p>
+            <span class='menu__number'>13</span><p class='menu__text'>Delivery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>14</span><p class="menu__text">Maintenance</p>
+            <span class='menu__number'>14</span><p class='menu__text'>Maintenance</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>15</span><p class="menu__text">Conclusions</p>
+            <span class='menu__number'>15</span><p class='menu__text'>Conclusions</p>
         </li>
     </ul>
 
@@ -569,25 +533,13 @@ theme: my-theme
                 <p>Deliverable: a set of scenarios</p>
         </div>
     </div>
-    <div class="bg-placeholder--large"></div>
+    <div class='bg-placeholder--large'></div>
  </div>
-</div>
-
-<!-- footer -->
-<div class="footer">
-    <p class="footer__text">KAPPA / LONDON </p>
-    <p class="footer__text">x RDDS </p>
 </div>
 
 ---
 
 ## <!-- ===== WIREFRAMEs ===== -->
-
-<!-- header -->
-<div class='header'>
-    <img class='logo' src='./assets/Logo.svg'>
-    <img src="./assets/timeline.svg" class="header__timeline" alt="Process timeline">
-</div>
 
 <div class='flex-wrapper'>
     
@@ -595,56 +547,56 @@ theme: my-theme
  <ul class= 'menu'>
         <li class='menu__item'>
             <span class='menu__number'>0</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Introduction</p>
         </li>
         <li class='menu__item'>
             <span class='menu__number'>1</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Business Objectives</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>2</span><p class="menu__text">Solution Overview</p>
+            <span class='menu__number'>2</span><p class='menu__text'>Solution Overview</p>
         </li>
           <li class='menu__item'>
-            <span class='menu__number'>3</span><p class="menu__text">Research</p>
+            <span class='menu__number'>3</span><p class='menu__text'>Research</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>4</span><p class="menu__text">User Experience</p>
+            <span class='menu__number'>4</span><p class='menu__text'>User Experience</p>
         </li>
         <li class='menu__current'>
-            <span class='menu__number'>5</span><p class="menu__text">Wireframe</p>
-              <img src='./assets/Vector.svg' class="menu__current-sign">
+            <span class='menu__number'>5</span><p class='menu__text'>Wireframe</p>
+              <img src='./assets/selected_arrow.svg' class='menu__current-sign'>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>6</span><p class="menu__text">Content Gathering</p>
+            <span class='menu__number'>6</span><p class='menu__text'>Content Gathering</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>7</span><p class="menu__text">3D and Quality Imagery</p>
+            <span class='menu__number'>7</span><p class='menu__text'>3D and Quality Imagery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>8</span><p class="menu__text">Branding and UI - Style, Feel & Mock-Ups </p>
+            <span class='menu__number'>8</span><p class='menu__text'>Branding and UI - Style, Feel & Mock-Ups </p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>9</span><p class="menu__text">Development</p>
+            <span class='menu__number'>9</span><p class='menu__text'>Development</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>10</span><p class="menu__text">SEO</p>
+            <span class='menu__number'>10</span><p class='menu__text'>SEO</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>11</span><p class="menu__text">Analytics</p>
+            <span class='menu__number'>11</span><p class='menu__text'>Analytics</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>12</span><p class="menu__text">Live Chat</p>
+            <span class='menu__number'>12</span><p class='menu__text'>Live Chat</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>13</span><p class="menu__text">Delivery</p>
+            <span class='menu__number'>13</span><p class='menu__text'>Delivery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>14</span><p class="menu__text">Maintenance</p>
+            <span class='menu__number'>14</span><p class='menu__text'>Maintenance</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>15</span><p class="menu__text">Conclusions</p>
+            <span class='menu__number'>15</span><p class='menu__text'>Conclusions</p>
         </li>
     </ul>
 
@@ -658,25 +610,13 @@ theme: my-theme
                 <p>At this point we will organise a feedback session to discuss the wireframe</p>
         </div>
     </div>
-    <div class="bg-placeholder--large"></div>
+    <div class='bg-placeholder--large'></div>
  </div>
-</div>
-
-<!-- footer -->
-<div class="footer">
-    <p class="footer__text">KAPPA / LONDON </p>
-    <p class="footer__text">x RDDS </p>
 </div>
 
 ---
 
 ## <!-- ===== CONTENT GATHERING ===== -->
-
-<!-- header -->
-<div class='header'>
-    <img class='logo' src='./assets/Logo.svg'>
-    <img src="./assets/timeline.svg" class="header__timeline" alt="Process timeline">
-</div>
 
 <div class='flex-wrapper'>
     
@@ -684,56 +624,56 @@ theme: my-theme
  <ul class= 'menu'>
         <li class='menu__item'>
             <span class='menu__number'>0</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Introduction</p>
         </li>
         <li class='menu__item'>
             <span class='menu__number'>1</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Business Objectives</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>2</span><p class="menu__text">Solution Overview</p>
+            <span class='menu__number'>2</span><p class='menu__text'>Solution Overview</p>
         </li>
           <li class='menu__item'>
-            <span class='menu__number'>3</span><p class="menu__text">Research</p>
+            <span class='menu__number'>3</span><p class='menu__text'>Research</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>4</span><p class="menu__text">User Experience</p>
+            <span class='menu__number'>4</span><p class='menu__text'>User Experience</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>5</span><p class="menu__text">Wireframe</p>
+            <span class='menu__number'>5</span><p class='menu__text'>Wireframe</p>
         </li>
         <li class='menu__current'>
-            <span class='menu__number'>6</span><p class="menu__text">Content Gathering</p>
-             <img src='./assets/Vector.svg' class="menu__current-sign">
+            <span class='menu__number'>6</span><p class='menu__text'>Content Gathering</p>
+             <img src='./assets/selected_arrow.svg' class='menu__current-sign'>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>7</span><p class="menu__text">3D and Quality Imagery</p>
+            <span class='menu__number'>7</span><p class='menu__text'>3D and Quality Imagery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>8</span><p class="menu__text">Branding and UI - Style, Feel & Mock-Ups </p>
+            <span class='menu__number'>8</span><p class='menu__text'>Branding and UI - Style, Feel & Mock-Ups </p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>9</span><p class="menu__text">Development</p>
+            <span class='menu__number'>9</span><p class='menu__text'>Development</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>10</span><p class="menu__text">SEO</p>
+            <span class='menu__number'>10</span><p class='menu__text'>SEO</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>11</span><p class="menu__text">Analytics</p>
+            <span class='menu__number'>11</span><p class='menu__text'>Analytics</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>12</span><p class="menu__text">Live Chat</p>
+            <span class='menu__number'>12</span><p class='menu__text'>Live Chat</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>13</span><p class="menu__text">Delivery</p>
+            <span class='menu__number'>13</span><p class='menu__text'>Delivery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>14</span><p class="menu__text">Maintenance</p>
+            <span class='menu__number'>14</span><p class='menu__text'>Maintenance</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>15</span><p class="menu__text">Conclusions</p>
+            <span class='menu__number'>15</span><p class='menu__text'>Conclusions</p>
         </li>
     </ul>
 
@@ -748,25 +688,13 @@ theme: my-theme
                 <p>At this point, we will arrange a feedback session to discuss the content we've curated.</p>
         </div>
     </div>
-    <div class="bg-placeholder--large"></div>
+    <div class='bg-placeholder--large'></div>
  </div>
-</div>
-
-<!-- footer -->
-<div class="footer">
-    <p class="footer__text">KAPPA / LONDON </p>
-    <p class="footer__text">x RDDS </p>
 </div>
 
 ---
 
 ## <!-- ===== 3D AND QUALITY IMAGERY 1===== -->
-
-<!-- header -->
-<div class='header'>
-    <img class='logo' src='./assets/Logo.svg'>
-    <img src="./assets/timeline.svg" class="header__timeline" alt="Process timeline">
-</div>
 
 <div class='flex-wrapper'>
     
@@ -774,62 +702,62 @@ theme: my-theme
  <ul class= 'menu'>
         <li class='menu__item'>
             <span class='menu__number'>0</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Introduction</p>
         </li>
         <li class='menu__item'>
             <span class='menu__number'>1</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Business Objectives</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>2</span><p class="menu__text">Solution Overview</p>
+            <span class='menu__number'>2</span><p class='menu__text'>Solution Overview</p>
         </li>
           <li class='menu__item'>
-            <span class='menu__number'>3</span><p class="menu__text">Research</p>
+            <span class='menu__number'>3</span><p class='menu__text'>Research</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>4</span><p class="menu__text">User Experience</p>
+            <span class='menu__number'>4</span><p class='menu__text'>User Experience</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>5</span><p class="menu__text">Wireframe</p>
+            <span class='menu__number'>5</span><p class='menu__text'>Wireframe</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>6</span><p class="menu__text">Content Gathering</p>
+            <span class='menu__number'>6</span><p class='menu__text'>Content Gathering</p>
         </li>
         <li class='menu__current'>
-            <span class='menu__number'>7</span><p class="menu__text">3D and Quality Imagery</p>
-             <img src='./assets/Vector.svg' class="menu__current-sign">
+            <span class='menu__number'>7</span><p class='menu__text'>3D and Quality Imagery</p>
+             <img src='./assets/selected_arrow.svg' class='menu__current-sign'>
         </li>
          <!-- inner list -->
-            <ul class="menu__inner-list">
+            <ul class='menu__inner-list'>
                 <li class='menu__text menu__text--selected'>Customer Effect</li>
                 <li class='menu__text'>Visual Opportunities</li>
                 <li class='menu__text'>Brand Benefits</li>
             </ul>
         <li class='menu__item'>
-            <span class='menu__number'>8</span><p class="menu__text">Branding and UI - Style, Feel & Mock-Ups </p>
+            <span class='menu__number'>8</span><p class='menu__text'>Branding and UI - Style, Feel & Mock-Ups </p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>9</span><p class="menu__text">Development</p>
+            <span class='menu__number'>9</span><p class='menu__text'>Development</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>10</span><p class="menu__text">SEO</p>
+            <span class='menu__number'>10</span><p class='menu__text'>SEO</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>11</span><p class="menu__text">Analytics</p>
+            <span class='menu__number'>11</span><p class='menu__text'>Analytics</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>12</span><p class="menu__text">Live Chat</p>
+            <span class='menu__number'>12</span><p class='menu__text'>Live Chat</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>13</span><p class="menu__text">Delivery</p>
+            <span class='menu__number'>13</span><p class='menu__text'>Delivery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>14</span><p class="menu__text">Maintenance</p>
+            <span class='menu__number'>14</span><p class='menu__text'>Maintenance</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>15</span><p class="menu__text">Conclusions</p>
+            <span class='menu__number'>15</span><p class='menu__text'>Conclusions</p>
         </li>
     </ul>
 
@@ -839,120 +767,96 @@ theme: my-theme
         <h1>Quality Visuals</h1>
         <div class='quality__info'>
                 <p>3D images can attract customers who are looking for the highest possible quality or unique elements of craftsmanship. The realistic imagery is an important addition that engages customers who don't have the opportunity to closely examine a physical product or prototype. A set of photorealistic images that walk a customer through a brand’s engineering process can provide an informative comparison of several products in a collection.</p>
-                <p><span class="main__subheader">Cut-out images</span><br>
+                <p><span class='main__subheader'>Cut-out images</span><br>
                 3D rendering removes the necessity of building a separate prototype just to break it down to showcase the product’s inner workings. Cut-out images lend a sense of transparency to a marketing campaign and allow potential buyers to explore the intricacies of a product.</p>
-                <p><span class="main__subheader">Multiple points of view</span><br>
+                <p><span class='main__subheader'>Multiple points of view</span><br>
                 Creating multiple points of view places a consumer in a setting where they can easily engage with the product. Customers can scroll through and evaluate different versions of a product until they find an option that meets their criteria.</p>
-                <p><span  class="main__subheader">Freedom of exploration</span><br>
+                <p><span  class='main__subheader'>Freedom of exploration</span><br>
                 Interactive 3D product experiences provide consumers with the freedom to explore products online as though they were in a store, while getting direct access to enriched content and customization capabilities. Most importantly, it can instill a sense of ownership even before interaction with a physical product takes place.</p>
         </div>
     </div>
-    <div class="bg-placeholder--large quality__placeholder"></div>
+    <div class='bg-placeholder--large quality__placeholder'></div>
  </div>
-</div>
-
-<!-- footer -->
-<div class="footer">
-    <p class="footer__text">KAPPA / LONDON </p>
-    <p class="footer__text">x RDDS </p>
 </div>
 
 ---
 
 ## <!-- ===== 3D AND QUALITY IMAGERY 2 ===== -->
 
-<!-- header -->
-<div class='header'>
-    <img class='logo' src='./assets/Logo.svg'>
-    <img src="./assets/timeline.svg" class="header__timeline" alt="Process timeline">
-</div>
-
 <div class='flex-wrapper'>
     
  <!-- menu -->
  <ul class= 'menu'>
         <li class='menu__item'>
             <span class='menu__number'>0</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Introduction</p>
         </li>
         <li class='menu__item'>
             <span class='menu__number'>1</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Business Objectives</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>2</span><p class="menu__text">Solution Overview</p>
+            <span class='menu__number'>2</span><p class='menu__text'>Solution Overview</p>
         </li>
           <li class='menu__item'>
-            <span class='menu__number'>3</span><p class="menu__text">Research</p>
+            <span class='menu__number'>3</span><p class='menu__text'>Research</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>4</span><p class="menu__text">User Experience</p>
+            <span class='menu__number'>4</span><p class='menu__text'>User Experience</p>
         </li>
         <li class='menu__current'>
-            <span class='menu__number'>5</span><p class="menu__text">Wireframe</p>
+            <span class='menu__number'>5</span><p class='menu__text'>Wireframe</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>6</span><p class="menu__text">Content Gathering</p>
+            <span class='menu__number'>6</span><p class='menu__text'>Content Gathering</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>7</span><p class="menu__text">3D and Quality Imagery</p>
-               <img src='./assets/Vector.svg' class="menu__current-sign">
+            <span class='menu__number'>7</span><p class='menu__text'>3D and Quality Imagery</p>
+               <img src='./assets/selected_arrow.svg' class='menu__current-sign'>
         </li>
          <!-- inner list -->
-            <ul class="menu__inner-list">
+            <ul class='menu__inner-list'>
                 <li class='menu__text'>Customer Effect</li>
                 <li class='menu__text menu__text--selected'>Visual Opportunities</li>
                 <li class='menu__text'>Brand Benefits</li>
             </ul>
         <li class='menu__item'>
-            <span class='menu__number'>8</span><p class="menu__text">Branding and UI - Style, Feel & Mock-Ups </p>
+            <span class='menu__number'>8</span><p class='menu__text'>Branding and UI - Style, Feel & Mock-Ups </p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>9</span><p class="menu__text">Development</p>
+            <span class='menu__number'>9</span><p class='menu__text'>Development</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>10</span><p class="menu__text">SEO</p>
+            <span class='menu__number'>10</span><p class='menu__text'>SEO</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>11</span><p class="menu__text">Analytics</p>
+            <span class='menu__number'>11</span><p class='menu__text'>Analytics</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>12</span><p class="menu__text">Live Chat</p>
+            <span class='menu__number'>12</span><p class='menu__text'>Live Chat</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>13</span><p class="menu__text">Delivery</p>
+            <span class='menu__number'>13</span><p class='menu__text'>Delivery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>14</span><p class="menu__text">Maintenance</p>
+            <span class='menu__number'>14</span><p class='menu__text'>Maintenance</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>15</span><p class="menu__text">Conclusions</p>
+            <span class='menu__number'>15</span><p class='menu__text'>Conclusions</p>
         </li>
     </ul>
 
 <!-- content -->
    <div class='main'>
         <h1>Quality Visuals - Variation Opportunities</h1>
-        <img src="./assets/opportunities.png" class='quality__image'>
+        <img src='./assets/opportunities.png' class='quality__image'>
     </div>
-
-<!-- footer -->
-<div class="footer">
-    <p class="footer__text">KAPPA / LONDON </p>
-    <p class="footer__text">x RDDS </p>
-</div>
 
 ---
 
 ## <!-- 3D AND QUALITY IMAGERY 3 -->
-
-<!-- header -->
-<div class='header'>
-    <img class='logo' src='./assets/Logo.svg'>
-    <img src="./assets/timeline.svg" class="header__timeline" alt="Process timeline">
-</div>
 
 <div class='flex-wrapper'>
     
@@ -960,62 +864,62 @@ theme: my-theme
  <ul class= 'menu'>
         <li class='menu__item'>
             <span class='menu__number'>0</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Introduction</p>
         </li>
         <li class='menu__item'>
             <span class='menu__number'>1</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Business Objectives</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>2</span><p class="menu__text">Solution Overview</p>
+            <span class='menu__number'>2</span><p class='menu__text'>Solution Overview</p>
         </li>
           <li class='menu__item'>
-            <span class='menu__number'>3</span><p class="menu__text">Research</p>
+            <span class='menu__number'>3</span><p class='menu__text'>Research</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>4</span><p class="menu__text">User Experience</p>
+            <span class='menu__number'>4</span><p class='menu__text'>User Experience</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>5</span><p class="menu__text">Wireframe</p>
+            <span class='menu__number'>5</span><p class='menu__text'>Wireframe</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>6</span><p class="menu__text">Content Gathering</p>
+            <span class='menu__number'>6</span><p class='menu__text'>Content Gathering</p>
         </li>
         <li class='menu__current'>
-            <span class='menu__number'>7</span><p class="menu__text">3D and Quality Imagery</p>
-               <img src='./assets/Vector.svg' class="menu__current-sign">
+            <span class='menu__number'>7</span><p class='menu__text'>3D and Quality Imagery</p>
+               <img src='./assets/selected_arrow.svg' class='menu__current-sign'>
         </li>
          <!-- inner list -->
-            <ul class="menu__inner-list">
+            <ul class='menu__inner-list'>
                 <li class='menu__text'>Customer Effect</li>
                 <li class='menu__text'>Visual Opportunities</li>
                 <li class='menu__text menu__text--selected'>Brand Benefits</li>
             </ul>
         <li class='menu__item'>
-            <span class='menu__number'>8</span><p class="menu__text">Branding and UI - Style, Feel & Mock-Ups </p>
+            <span class='menu__number'>8</span><p class='menu__text'>Branding and UI - Style, Feel & Mock-Ups </p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>9</span><p class="menu__text">Development</p>
+            <span class='menu__number'>9</span><p class='menu__text'>Development</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>10</span><p class="menu__text">SEO</p>
+            <span class='menu__number'>10</span><p class='menu__text'>SEO</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>11</span><p class="menu__text">Analytics</p>
+            <span class='menu__number'>11</span><p class='menu__text'>Analytics</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>12</span><p class="menu__text">Live Chat</p>
+            <span class='menu__number'>12</span><p class='menu__text'>Live Chat</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>13</span><p class="menu__text">Delivery</p>
+            <span class='menu__number'>13</span><p class='menu__text'>Delivery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>14</span><p class="menu__text">Maintenance</p>
+            <span class='menu__number'>14</span><p class='menu__text'>Maintenance</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>15</span><p class="menu__text">Conclusions</p>
+            <span class='menu__number'>15</span><p class='menu__text'>Conclusions</p>
         </li>
     </ul>
 
@@ -1047,25 +951,13 @@ theme: my-theme
                 </p>
         </div>
     </div>
-    <div class="bg-placeholder--medium"></div>
+    <div class='bg-placeholder--medium'></div>
  </div>
-</div>
-
-<!-- footer -->
-<div class="footer">
-    <p class="footer__text">KAPPA / LONDON </p>
-    <p class="footer__text">x RDDS </p>
 </div>
 
 ---
 
 ## <!-- ===== BRANDING ===== -->
-
-<!-- header -->
-<div class='header'>
-    <img class='logo' src='./assets/Logo.svg'>
-    <img src="./assets/timeline.svg" class="header__timeline" alt="Process timeline">
-</div>
 
 <div class='flex-wrapper'>
     
@@ -1073,56 +965,56 @@ theme: my-theme
  <ul class= 'menu'>
         <li class='menu__item'>
             <span class='menu__number'>0</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Introduction</p>
         </li>
         <li class='menu__item'>
             <span class='menu__number'>1</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Business Objectives</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>2</span><p class="menu__text">Solution Overview</p>
+            <span class='menu__number'>2</span><p class='menu__text'>Solution Overview</p>
         </li>
           <li class='menu__item'>
-            <span class='menu__number'>3</span><p class="menu__text">Research</p>
+            <span class='menu__number'>3</span><p class='menu__text'>Research</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>4</span><p class="menu__text">User Experience</p>
+            <span class='menu__number'>4</span><p class='menu__text'>User Experience</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>5</span><p class="menu__text">Wireframe</p>
+            <span class='menu__number'>5</span><p class='menu__text'>Wireframe</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>6</span><p class="menu__text">Content Gathering</p>
+            <span class='menu__number'>6</span><p class='menu__text'>Content Gathering</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>7</span><p class="menu__text">3D and Quality Imagery</p>
+            <span class='menu__number'>7</span><p class='menu__text'>3D and Quality Imagery</p>
         </li>
         <li class='menu__current'>
-            <span class='menu__number'>8</span><p class="menu__text">Branding and UI - Style, Feel & Mock-Ups </p>
-                <img src='./assets/Vector.svg' class="menu__current-sign">
+            <span class='menu__number'>8</span><p class='menu__text'>Branding and UI - Style, Feel & Mock-Ups </p>
+                <img src='./assets/selected_arrow.svg' class='menu__current-sign'>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>9</span><p class="menu__text">Development</p>
+            <span class='menu__number'>9</span><p class='menu__text'>Development</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>10</span><p class="menu__text">SEO</p>
+            <span class='menu__number'>10</span><p class='menu__text'>SEO</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>11</span><p class="menu__text">Analytics</p>
+            <span class='menu__number'>11</span><p class='menu__text'>Analytics</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>12</span><p class="menu__text">Live Chat</p>
+            <span class='menu__number'>12</span><p class='menu__text'>Live Chat</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>13</span><p class="menu__text">Delivery</p>
+            <span class='menu__number'>13</span><p class='menu__text'>Delivery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>14</span><p class="menu__text">Maintenance</p>
+            <span class='menu__number'>14</span><p class='menu__text'>Maintenance</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>15</span><p class="menu__text">Conclusions</p>
+            <span class='menu__number'>15</span><p class='menu__text'>Conclusions</p>
         </li>
     </ul>
 
@@ -1140,25 +1032,13 @@ theme: my-theme
                 <p>KPIs: Time Spent on Page, Time Required to Complete a Task (this should be reduced),</p>
         </div>
     </div>
-    <div class="bg-placeholder--medium"></div>
+    <div class='bg-placeholder--medium'></div>
  </div>
-</div>
-
-<!-- footer -->
-<div class="footer">
-    <p class="footer__text">KAPPA / LONDON </p>
-    <p class="footer__text">x RDDS </p>
 </div>
 
 ---
 
 ## <!-- ===== DEVELOPMENT ===== -->
-
-<!-- header -->
-<div class='header'>
-    <img class='logo' src='./assets/Logo.svg'>
-    <img src="./assets/timeline.svg" class="header__timeline" alt="Process timeline">
-</div>
 
 <div class='flex-wrapper'>
     
@@ -1166,56 +1046,56 @@ theme: my-theme
  <ul class= 'menu'>
         <li class='menu__item'>
             <span class='menu__number'>0</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Introduction</p>
         </li>
         <li class='menu__item'>
             <span class='menu__number'>1</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Business Objectives</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>2</span><p class="menu__text">Solution Overview</p>
+            <span class='menu__number'>2</span><p class='menu__text'>Solution Overview</p>
         </li>
           <li class='menu__item'>
-            <span class='menu__number'>3</span><p class="menu__text">Research</p>
+            <span class='menu__number'>3</span><p class='menu__text'>Research</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>4</span><p class="menu__text">User Experience</p>
+            <span class='menu__number'>4</span><p class='menu__text'>User Experience</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>5</span><p class="menu__text">Wireframe</p>
+            <span class='menu__number'>5</span><p class='menu__text'>Wireframe</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>6</span><p class="menu__text">Content Gathering</p>
+            <span class='menu__number'>6</span><p class='menu__text'>Content Gathering</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>7</span><p class="menu__text">3D and Quality Imagery</p>
+            <span class='menu__number'>7</span><p class='menu__text'>3D and Quality Imagery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>8</span><p class="menu__text">Branding and UI - Style, Feel & Mock-Ups </p>
+            <span class='menu__number'>8</span><p class='menu__text'>Branding and UI - Style, Feel & Mock-Ups </p>
         </li>
         <li class='menu__current'>
-            <span class='menu__number'>9</span><p class="menu__text">Development</p>
-                <img src='./assets/Vector.svg' class="menu__current-sign">
+            <span class='menu__number'>9</span><p class='menu__text'>Development</p>
+                <img src='./assets/selected_arrow.svg' class='menu__current-sign'>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>10</span><p class="menu__text">SEO</p>
+            <span class='menu__number'>10</span><p class='menu__text'>SEO</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>11</span><p class="menu__text">Analytics</p>
+            <span class='menu__number'>11</span><p class='menu__text'>Analytics</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>12</span><p class="menu__text">Live Chat</p>
+            <span class='menu__number'>12</span><p class='menu__text'>Live Chat</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>13</span><p class="menu__text">Delivery</p>
+            <span class='menu__number'>13</span><p class='menu__text'>Delivery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>14</span><p class="menu__text">Maintenance</p>
+            <span class='menu__number'>14</span><p class='menu__text'>Maintenance</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>15</span><p class="menu__text">Conclusions</p>
+            <span class='menu__number'>15</span><p class='menu__text'>Conclusions</p>
         </li>
     </ul>
 
@@ -1254,25 +1134,13 @@ theme: my-theme
                 <p>We are well versed in building GDPR-compliant data capturing methods on websites.</p>
         </div>
     </div>
-    <div class="bg-placeholder--small"></div>
+    <div class='bg-placeholder--small'></div>
  </div>
-</div>
-
-<!-- footer -->
-<div class="footer">
-    <p class="footer__text">KAPPA / LONDON </p>
-    <p class="footer__text">x RDDS </p>
 </div>
 
 ---
 
 ## <!-- ===== SEO ===== -->
-
-<!-- header -->
-<div class='header'>
-    <img class='logo' src='./assets/Logo.svg'>
-    <img src="./assets/timeline.svg" class="header__timeline" alt="Process timeline">
-</div>
 
 <div class='flex-wrapper'>
     
@@ -1280,61 +1148,61 @@ theme: my-theme
  <ul class= 'menu'>
         <li class='menu__item'>
             <span class='menu__number'>0</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Introduction</p>
         </li>
         <li class='menu__item'>
             <span class='menu__number'>1</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Business Objectives</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>2</span><p class="menu__text">Solution Overview</p>
+            <span class='menu__number'>2</span><p class='menu__text'>Solution Overview</p>
         </li>
           <li class='menu__item'>
-            <span class='menu__number'>3</span><p class="menu__text">Research</p>
+            <span class='menu__number'>3</span><p class='menu__text'>Research</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>4</span><p class="menu__text">User Experience</p>
+            <span class='menu__number'>4</span><p class='menu__text'>User Experience</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>5</span><p class="menu__text">Wireframe</p>
+            <span class='menu__number'>5</span><p class='menu__text'>Wireframe</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>6</span><p class="menu__text">Content Gathering</p>
+            <span class='menu__number'>6</span><p class='menu__text'>Content Gathering</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>7</span><p class="menu__text">3D and Quality Imagery</p>
+            <span class='menu__number'>7</span><p class='menu__text'>3D and Quality Imagery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>8</span><p class="menu__text">Branding and UI - Style, Feel & Mock-Ups </p>
+            <span class='menu__number'>8</span><p class='menu__text'>Branding and UI - Style, Feel & Mock-Ups </p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>9</span><p class="menu__text">Development</p>
+            <span class='menu__number'>9</span><p class='menu__text'>Development</p>
         </li>
         <li class='menu__current'>
-            <span class='menu__number'>10</span><p class="menu__text">SEO</p>
-              <img src='./assets/Vector.svg' class="menu__current-sign">
+            <span class='menu__number'>10</span><p class='menu__text'>SEO</p>
+              <img src='./assets/selected_arrow.svg' class='menu__current-sign'>
         </li>
           <!-- inner list -->
-            <ul class="menu__inner-list">
+            <ul class='menu__inner-list'>
                 <li class='menu__text menu__text--selected'>Research</li>
                 <li class='menu__text'>Backlinking</li>
             </ul>
         <li class='menu__item'>
-            <span class='menu__number'>11</span><p class="menu__text">Analytics</p>
+            <span class='menu__number'>11</span><p class='menu__text'>Analytics</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>12</span><p class="menu__text">Live Chat</p>
+            <span class='menu__number'>12</span><p class='menu__text'>Live Chat</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>13</span><p class="menu__text">Delivery</p>
+            <span class='menu__number'>13</span><p class='menu__text'>Delivery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>14</span><p class="menu__text">Maintenance</p>
+            <span class='menu__number'>14</span><p class='menu__text'>Maintenance</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>15</span><p class="menu__text">Conclusions</p>
+            <span class='menu__number'>15</span><p class='menu__text'>Conclusions</p>
         </li>
     </ul>
 
@@ -1351,25 +1219,13 @@ theme: my-theme
                 </p>
         </div>
     </div>
-    <div class="bg-placeholder--medium"></div>
+    <div class='bg-placeholder--medium'></div>
  </div>
-</div>
-
-<!-- footer -->
-<div class="footer">
-    <p class="footer__text">KAPPA / LONDON </p>
-    <p class="footer__text">x RDDS </p>
 </div>
 
 ---
 
 ## <!-- ===== SEO 2 ===== -->
-
-<!-- header -->
-<div class='header'>
-    <img class='logo' src='./assets/Logo.svg'>
-    <img src="./assets/timeline.svg" class="header__timeline" alt="Process timeline">
-</div>
 
 <div class='flex-wrapper'>
     
@@ -1377,61 +1233,61 @@ theme: my-theme
  <ul class= 'menu'>
         <li class='menu__item'>
             <span class='menu__number'>0</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Introduction</p>
         </li>
         <li class='menu__item'>
             <span class='menu__number'>1</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Business Objectives</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>2</span><p class="menu__text">Solution Overview</p>
+            <span class='menu__number'>2</span><p class='menu__text'>Solution Overview</p>
         </li>
           <li class='menu__item'>
-            <span class='menu__number'>3</span><p class="menu__text">Research</p>
+            <span class='menu__number'>3</span><p class='menu__text'>Research</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>4</span><p class="menu__text">User Experience</p>
+            <span class='menu__number'>4</span><p class='menu__text'>User Experience</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>5</span><p class="menu__text">Wireframe</p>
+            <span class='menu__number'>5</span><p class='menu__text'>Wireframe</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>6</span><p class="menu__text">Content Gathering</p>
+            <span class='menu__number'>6</span><p class='menu__text'>Content Gathering</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>7</span><p class="menu__text">3D and Quality Imagery</p>
+            <span class='menu__number'>7</span><p class='menu__text'>3D and Quality Imagery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>8</span><p class="menu__text">Branding and UI - Style, Feel & Mock-Ups </p>
+            <span class='menu__number'>8</span><p class='menu__text'>Branding and UI - Style, Feel & Mock-Ups </p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>9</span><p class="menu__text">Development</p>
+            <span class='menu__number'>9</span><p class='menu__text'>Development</p>
         </li>
         <li class='menu__current'>
-            <span class='menu__number'>10</span><p class="menu__text">SEO</p>
-              <img src='./assets/Vector.svg' class="menu__current-sign">
+            <span class='menu__number'>10</span><p class='menu__text'>SEO</p>
+              <img src='./assets/selected_arrow.svg' class='menu__current-sign'>
         </li>
           <!-- inner list -->
-            <ul class="menu__inner-list">
+            <ul class='menu__inner-list'>
                 <li class='menu__text'>Research</li>
                 <li class='menu__text menu__text--selected'>Backlinking</li>
             </ul>
         <li class='menu__item'>
-            <span class='menu__number'>11</span><p class="menu__text">Analytics</p>
+            <span class='menu__number'>11</span><p class='menu__text'>Analytics</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>12</span><p class="menu__text">Live Chat</p>
+            <span class='menu__number'>12</span><p class='menu__text'>Live Chat</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>13</span><p class="menu__text">Delivery</p>
+            <span class='menu__number'>13</span><p class='menu__text'>Delivery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>14</span><p class="menu__text">Maintenance</p>
+            <span class='menu__number'>14</span><p class='menu__text'>Maintenance</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>15</span><p class="menu__text">Conclusions</p>
+            <span class='menu__number'>15</span><p class='menu__text'>Conclusions</p>
         </li>
     </ul>
 
@@ -1449,25 +1305,13 @@ theme: my-theme
                <p>KPIs: Domain Trustworthiness, Number of Backlinks, Keyword rankings</p>
         </div>
     </div>
-    <div class="bg-placeholder--medium"></div>
+    <div class='bg-placeholder--medium'></div>
  </div>
-</div>
-
-<!-- footer -->
-<div class="footer">
-    <p class="footer__text">KAPPA / LONDON </p>
-    <p class="footer__text">x RDDS </p>
 </div>
 
 ---
 
 ## <!-- ===== ANALYTICS ===== -->
-
-<!-- header -->
-<div class='header'>
-    <img class='logo' src='./assets/Logo.svg'>
-    <img src="./assets/timeline.svg" class="header__timeline" alt="Process timeline">
-</div>
 
 <div class='flex-wrapper'>
     
@@ -1475,61 +1319,61 @@ theme: my-theme
  <ul class= 'menu'>
         <li class='menu__item'>
             <span class='menu__number'>0</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Introduction</p>
         </li>
         <li class='menu__item'>
             <span class='menu__number'>1</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Business Objectives</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>2</span><p class="menu__text">Solution Overview</p>
+            <span class='menu__number'>2</span><p class='menu__text'>Solution Overview</p>
         </li>
           <li class='menu__item'>
-            <span class='menu__number'>3</span><p class="menu__text">Research</p>
+            <span class='menu__number'>3</span><p class='menu__text'>Research</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>4</span><p class="menu__text">User Experience</p>
+            <span class='menu__number'>4</span><p class='menu__text'>User Experience</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>5</span><p class="menu__text">Wireframe</p>
+            <span class='menu__number'>5</span><p class='menu__text'>Wireframe</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>6</span><p class="menu__text">Content Gathering</p>
+            <span class='menu__number'>6</span><p class='menu__text'>Content Gathering</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>7</span><p class="menu__text">3D and Quality Imagery</p>
+            <span class='menu__number'>7</span><p class='menu__text'>3D and Quality Imagery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>8</span><p class="menu__text">Branding and UI - Style, Feel & Mock-Ups </p>
+            <span class='menu__number'>8</span><p class='menu__text'>Branding and UI - Style, Feel & Mock-Ups </p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>9</span><p class="menu__text">Development</p>
+            <span class='menu__number'>9</span><p class='menu__text'>Development</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>10</span><p class="menu__text">SEO</p>
+            <span class='menu__number'>10</span><p class='menu__text'>SEO</p>
         </li>
         <li class='menu__current'>
-            <span class='menu__number'>11</span><p class="menu__text">Analytics</p>
-              <img src='./assets/Vector.svg' class="menu__current-sign">
+            <span class='menu__number'>11</span><p class='menu__text'>Analytics</p>
+              <img src='./assets/selected_arrow.svg' class='menu__current-sign'>
         </li>
            <!-- inner list -->
-            <ul class="menu__inner-list">
+            <ul class='menu__inner-list'>
                 <li class='menu__text'>GA and HotJar</li>
                 <li class='menu__text menu__text--selected'>AlbaCross and LeadWorx</li>
             </ul>
         <li class='menu__item'>
-            <span class='menu__number'>12</span><p class="menu__text">Live Chat</p>
+            <span class='menu__number'>12</span><p class='menu__text'>Live Chat</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>13</span><p class="menu__text">Delivery</p>
+            <span class='menu__number'>13</span><p class='menu__text'>Delivery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>14</span><p class="menu__text">Maintenance</p>
+            <span class='menu__number'>14</span><p class='menu__text'>Maintenance</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>15</span><p class="menu__text">Conclusions</p>
+            <span class='menu__number'>15</span><p class='menu__text'>Conclusions</p>
         </li>
     </ul>
 
@@ -1545,25 +1389,13 @@ theme: my-theme
                <p>This is especially valuable if RDDS is considering cold outreach, as there is a high probability that visitors are looking for a supplier or researching.</p>
         </div>
     </div>
-    <div class="bg-placeholder--medium"></div>
+    <div class='bg-placeholder--medium'></div>
  </div>
-</div>
-
-<!-- footer -->
-<div class="footer">
-    <p class="footer__text">KAPPA / LONDON </p>
-    <p class="footer__text">x RDDS </p>
 </div>
 
 ---
 
 ## <!-- ===== LIVE CHAT ===== -->
-
-<!-- header -->
-<div class='header'>
-    <img class='logo' src='./assets/Logo.svg'>
-    <img src="./assets/timeline.svg" class="header__timeline" alt="Process timeline">
-</div>
 
 <div class='flex-wrapper'>
     
@@ -1571,56 +1403,56 @@ theme: my-theme
  <ul class= 'menu'>
         <li class='menu__item'>
             <span class='menu__number'>0</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Introduction</p>
         </li>
         <li class='menu__item'>
             <span class='menu__number'>1</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Business Objectives</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>2</span><p class="menu__text">Solution Overview</p>
+            <span class='menu__number'>2</span><p class='menu__text'>Solution Overview</p>
         </li>
           <li class='menu__item'>
-            <span class='menu__number'>3</span><p class="menu__text">Research</p>
+            <span class='menu__number'>3</span><p class='menu__text'>Research</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>4</span><p class="menu__text">User Experience</p>
+            <span class='menu__number'>4</span><p class='menu__text'>User Experience</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>5</span><p class="menu__text">Wireframe</p>
+            <span class='menu__number'>5</span><p class='menu__text'>Wireframe</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>6</span><p class="menu__text">Content Gathering</p>
+            <span class='menu__number'>6</span><p class='menu__text'>Content Gathering</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>7</span><p class="menu__text">3D and Quality Imagery</p>
+            <span class='menu__number'>7</span><p class='menu__text'>3D and Quality Imagery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>8</span><p class="menu__text">Branding and UI - Style, Feel & Mock-Ups </p>
+            <span class='menu__number'>8</span><p class='menu__text'>Branding and UI - Style, Feel & Mock-Ups </p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>9</span><p class="menu__text">Development</p>
+            <span class='menu__number'>9</span><p class='menu__text'>Development</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>10</span><p class="menu__text">SEO</p>
+            <span class='menu__number'>10</span><p class='menu__text'>SEO</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>11</span><p class="menu__text">Analytics</p>
+            <span class='menu__number'>11</span><p class='menu__text'>Analytics</p>
         </li>
         <li class='menu__current'>
-            <span class='menu__number'>12</span><p class="menu__text">Live Chat</p>
-             <img src='./assets/Vector.svg' class="menu__current-sign">
+            <span class='menu__number'>12</span><p class='menu__text'>Live Chat</p>
+             <img src='./assets/selected_arrow.svg' class='menu__current-sign'>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>13</span><p class="menu__text">Delivery</p>
+            <span class='menu__number'>13</span><p class='menu__text'>Delivery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>14</span><p class="menu__text">Maintenance</p>
+            <span class='menu__number'>14</span><p class='menu__text'>Maintenance</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>15</span><p class="menu__text">Conclusions</p>
+            <span class='menu__number'>15</span><p class='menu__text'>Conclusions</p>
         </li>
     </ul>
 
@@ -1644,25 +1476,13 @@ theme: my-theme
                 <p>KPIs: Number of qualified leads, Sales conversion rate, Sales team satisfaction (assessed through questionnaires), Time spent to complete sales tasks,</p>
         </div>
     </div>
-    <div class="bg-placeholder--smaller"></div>
+    <div class='bg-placeholder--smaller'></div>
  </div>
-</div>
-
-<!-- footer -->
-<div class="footer">
-    <p class="footer__text">KAPPA / LONDON </p>
-    <p class="footer__text">x RDDS </p>
 </div>
 
 ---
 
 ## <!-- ===== DELIVERY ===== -->
-
-<!-- header -->
-<div class='header'>
-    <img class='logo' src='./assets/Logo.svg'>
-    <img src="./assets/timeline.svg" class="header__timeline" alt="Process timeline">
-</div>
 
 <div class='flex-wrapper'>
     
@@ -1670,56 +1490,56 @@ theme: my-theme
  <ul class= 'menu'>
         <li class='menu__item'>
             <span class='menu__number'>0</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Introduction</p>
         </li>
         <li class='menu__item'>
             <span class='menu__number'>1</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Business Objectives</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>2</span><p class="menu__text">Solution Overview</p>
+            <span class='menu__number'>2</span><p class='menu__text'>Solution Overview</p>
         </li>
           <li class='menu__item'>
-            <span class='menu__number'>3</span><p class="menu__text">Research</p>
+            <span class='menu__number'>3</span><p class='menu__text'>Research</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>4</span><p class="menu__text">User Experience</p>
+            <span class='menu__number'>4</span><p class='menu__text'>User Experience</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>5</span><p class="menu__text">Wireframe</p>
+            <span class='menu__number'>5</span><p class='menu__text'>Wireframe</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>6</span><p class="menu__text">Content Gathering</p>
+            <span class='menu__number'>6</span><p class='menu__text'>Content Gathering</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>7</span><p class="menu__text">3D and Quality Imagery</p>
+            <span class='menu__number'>7</span><p class='menu__text'>3D and Quality Imagery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>8</span><p class="menu__text">Branding and UI - Style, Feel & Mock-Ups </p>
+            <span class='menu__number'>8</span><p class='menu__text'>Branding and UI - Style, Feel & Mock-Ups </p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>9</span><p class="menu__text">Development</p>
+            <span class='menu__number'>9</span><p class='menu__text'>Development</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>10</span><p class="menu__text">SEO</p>
+            <span class='menu__number'>10</span><p class='menu__text'>SEO</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>11</span><p class="menu__text">Analytics</p>
+            <span class='menu__number'>11</span><p class='menu__text'>Analytics</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>12</span><p class="menu__text">Live Chat</p>
+            <span class='menu__number'>12</span><p class='menu__text'>Live Chat</p>
         </li>
         <li class='menu__current'>
-            <span class='menu__number'>13</span><p class="menu__text">Delivery</p>
-            <img src='./assets/Vector.svg' class="menu__current-sign">
+            <span class='menu__number'>13</span><p class='menu__text'>Delivery</p>
+            <img src='./assets/selected_arrow.svg' class='menu__current-sign'>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>14</span><p class="menu__text">Maintenance</p>
+            <span class='menu__number'>14</span><p class='menu__text'>Maintenance</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>15</span><p class="menu__text">Conclusions</p>
+            <span class='menu__number'>15</span><p class='menu__text'>Conclusions</p>
         </li>
     </ul>
 
@@ -1732,14 +1552,8 @@ theme: my-theme
                <p></p>
         </div>
     </div>
-    <div class="bg-placeholder--medium"></div>
+    <div class='bg-placeholder--medium'></div>
  </div>
-</div>
-
-<!-- footer -->
-<div class="footer">
-    <p class="footer__text">KAPPA / LONDON </p>
-    <p class="footer__text">x RDDS </p>
 </div>
 
 ---
@@ -1748,68 +1562,62 @@ theme: my-theme
 
 ## <!-- ===== CONCLUSIONS ===== -->
 
-<!-- header -->
-<div class='header'>
-    <img class='logo' src='./assets/Logo.svg'>
-    <img src="./assets/timeline.svg" class="header__timeline" alt="Process timeline">
-</div>
-
 <div class='flex-wrapper'>
     
  <!-- menu -->
  <ul class= 'menu'>
         <li class='menu__item'>
             <span class='menu__number'>0</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Introduction</p>
         </li>
         <li class='menu__item'>
             <span class='menu__number'>1</span>
-            <p class="menu__text">
+            <p class='menu__text'>
             Business Objectives</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>2</span><p class="menu__text">Solution Overview</p>
+            <span class='menu__number'>2</span><p class='menu__text'>Solution Overview</p>
         </li>
           <li class='menu__item'>
-            <span class='menu__number'>3</span><p class="menu__text">Research</p>
+            <span class='menu__number'>3</span><p class='menu__text'>Research</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>4</span><p class="menu__text">User Experience</p>
+            <span class='menu__number'>4</span><p class='menu__text'>User Experience</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>5</span><p class="menu__text">Wireframe</p>
+            <span class='menu__number'>5</span><p class='menu__text'>Wireframe</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>6</span><p class="menu__text">Content Gathering</p>
+            <span class='menu__number'>6</span><p class='menu__text'>Content Gathering</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>7</span><p class="menu__text">3D and Quality Imagery</p>
+            <span class='menu__number'>7</span><p class='menu__text'>3D and Quality Imagery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>8</span><p class="menu__text">Branding and UI - Style, Feel & Mock-Ups </p>
+            <span class='menu__number'>8</span><p class='menu__text'>Branding and UI - Style, Feel & Mock-Ups </p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>9</span><p class="menu__text">Development</p>
+            <span class='menu__number'>9</span><p class='menu__text'>Development</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>10</span><p class="menu__text">SEO</p>
+            <span class='menu__number'>10</span><p class='menu__text'>SEO</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>11</span><p class="menu__text">Analytics</p>
+            <span class='menu__number'>11</span><p class='menu__text'>Analytics</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>12</span><p class="menu__text">Live Chat</p>
+            <span class='menu__number'>12</span><p class='menu__text'>Live Chat</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>13</span><p class="menu__text">Delivery</p>
+            <span class='menu__number'>13</span><p class='menu__text'>Delivery</p>
         </li>
         <li class='menu__item'>
-            <span class='menu__number'>14</span><p class="menu__text">Maintenance</p>
+            <span class='menu__number'>14</span><p class='menu__text'>Maintenance</p>
         </li>
         <li class='menu__current'>
-            <span class='menu__number'>15</span><p class="menu__text">Conclusions</p>
-             <img src='./assets/Vector.svg' class="menu__current-sign">
+            <span class='menu__number'>15</span><p class='menu__text'>Conclusions</p>
+             <img src='./assets/selected_arrow.svg' class='menu__current-sign'>
         </li>
     </ul>
 
@@ -1822,14 +1630,6 @@ theme: my-theme
                <p></p>
         </div>
     </div>
-    <div class="bg-placeholder--medium"></div>
+    <div class='bg-placeholder--medium'></div>
  </div>
 </div>
-
-<!-- footer -->
-<div class="footer">
-    <p class="footer__text">KAPPA / LONDON </p>
-    <p class="footer__text">x RDDS </p>
-</div>
-
----
