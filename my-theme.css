@@ -14,7 +14,6 @@
     background-color: #EDEDED;
   }
 
-
 body {
     display: block;
     margin: 0;
@@ -26,24 +25,43 @@ h1 {
     font-weight: 300;
     padding: 0;
     color: #000000;
+    margin-bottom: 30px;
+    margin-top: 0;
 }
+
+h3{
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
 p {
     font-size: 22px;
     font-weight: 400;
     padding-left: 0px;
     letter-spacing: -0.5px;
     color: #000000;
-    
-
+    line-height: 30px;
+    margin-bottom: 25px
 }
+
 ol, ul{
     font-family: "Yantramanav";
-    font-size: 22px;
     font-weight: 400;
-    padding:0
-
+    padding:0;
+    display: flex;
+    flex-direction: column;
 }
 
+ol{
+    margin: 8px 34px 0 54px; 
+}
+
+ul{
+    list-style: none;
+    padding-left: 16px;
+}
 
 /* wraps tha nav and content */
 .flex-wrapper{
@@ -77,19 +95,16 @@ ol, ul{
     right: 0;
    padding: 40px 34px 0 67px;
 }
-
 .logo{
     padding:0;
     height: 75px;
     width: 62px;
     margin-right: 79px;
 }
-
 .header__timeline{
     margin: 0;
     width: 1655px;;
 }
-
 
 /* footer */
 .footer{
@@ -105,7 +120,6 @@ ol, ul{
 
    
 }
-
 .footer__text{
     font-size: 14px;
     font-weight: 300;
@@ -115,79 +129,26 @@ ol, ul{
 }
 
 /* menu styling */
-.menu{
+.menu {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    margin: 8px 34px 0 44px;
-    
+    margin: 8px 0px 0 10px;
+    max-width: 250px;
 }
-
+.menu ol {
+    min-width: 190px;
+}
 .menu li{
-    list-style: none;
     padding: 0;
-    margin: 0;
-    max-width: 190px;
-}
-
-.menu__inner-list{
-padding-left: 40px;
-}
-
-
-.menu__text {
+    margin-top: 8px;
     font-size: 16px;
-    font-weight: 400;
-    margin:0;
-    letter-spacing: 0px;
-}
-.menu__text--selected{
-    text-decoration: underline #FFD200 ;
-}
-
-.menu__item{
-    display: flex;
-    align-items: center;
-    width: 200px;
-}
-
-.menu__number{
-    font-size: 16px;
-    font-weight: 300;
-    margin-right: 14px
-}
-
-.menu__current-sign{
-    height: 11px;
-    margin-left: 6px
-}
-
-.menu__current{
-    display: flex;
-    align-items: center;
+    max-width: 180px;
 }
 
 /* main content: header and text */
 .main {
 margin-right: 12px;
-
-}
-
-.main h1{
-    font-size: 60px;
-    font-weight: 100;
-    margin: 0;
-    padding:0;
-    margin-bottom: 30px;
-    /* white-space: nowrap; */
-}
-
-.main__subheader{
-    font-weight:700;
-}
-
-.main p{
-    margin-bottom: 30px
 }
 
 /* text block */
@@ -195,107 +156,118 @@ margin-right: 12px;
     width: 470px;
 }
 
-.content__info--med-wide{
-    width: 630px;
-}
-
-.content__info--medium{
-    width: 536px;
-}
 
 
-/* green placeholders */
-.bg-placeholder--large{
+/* handling the placeholder and text width*/
+.bg-placeholder{
+    margin: 0 35px 34px 28px;
     background-color: #4DBF3B;
+    height: 828px;
+}
+
+section.wide .bg-placeholder {
+
     width: 1095px;
-    height: 828px;
-    margin-right: 33px;
-    margin-bottom: 34px
+
+}
+section.wide p {
+    max-width: 470px;
 }
 
-.bg-placeholder--medium{
-    background-color: #4DBF3B;
+section.medium .bg-placeholder{
     width: 950px;
-    height: 828px;
-    margin-right: 33px;
-    margin-bottom: 34px
+}
+section.medium p {
+    max-width: 530px;
 }
 
-.bg-placeholder--small{
-    background-color: #4DBF3B;
+section.small .bg-placeholder{
     width: 305px;
-    height: 828px;
-    margin-right: 33px;
-    margin-bottom: 34px
+}
+section.small p {
+    max-width: 530px;
 }
 
-.bg-placeholder--smaller{
-    background-color: #4DBF3B;
+section.narrow .bg-placeholder{
     width: 567px;
-    height: 828px;
-    margin-right: 33px;
-    margin-bottom: 34px
 }
 
-
-
-/* ===== SOLUTIONS SLIDE */
-.content__solution{
-    width: 1540px;
-}
-.business__info{
-    width: 420px;
+section.narrow p {
+    max-width: 530px;
 }
 
-.solution__timeline{
-    margin-top: 127px;
-    width: 1655px;
-    height:92px;
-    margin-right: 33px
+section.average .bg-placeholder{
+    width: 785px;
+}
+section.average p {
+    max-width: 710px;
 }
 
-.wrapper{
-    display: flex;
+/* the arrow in the nav */
+
+section .menu img{
+    height: 11px;
+    margin-left: 6px;
+}
+
+/* switch to column layout */
+section.layout-column .content__wrapper{
+    max-width: 1480px;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-end;
-    overflow: visible;
-    width: 1543px;
+    justify-content: flex-start;
 }
 
-/* ==== RESEARCH SLIDE====== */
-.research__text {
-    line-height: 29px;
+section.image-center .content__wrapper img{
+    position: relative;
+    height: 738px;
+    width: 1290px;
+    margin: 0 auto;
+}
+section.image-center p{
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
 
-
-
-
-/* ==== QUALITY SLIDES */
-.quality__info{
-    width: 713px;
-    margin-right: 50px;
-    line-height: 30px;
+section.image-center .content__wrapper{
+   align-items: normal;
 }
 
-.quality__placeholder{
-    width: 814px;
+section.set-image-margin .content__wrapper .image__container {
+    padding: 150px 0;
 }
 
-.quality__image {
-    margin-left: 150px;
+/* trying the automatic nav arrow just for the main ones now */
+section.selected-0 .menu ol li:nth-child(1)::after,
+section.selected-1 .menu ol li:nth-child(2)::after,
+section.selected-2 .menu ol li:nth-child(3)::after,
+section.selected-3 .menu ol li:nth-child(4)::after,
+section.selected-4 .menu ol li:nth-child(5)::after,
+section.selected-5 .menu ol li:nth-child(6)::after,
+section.selected-6 .menu ol li:nth-child(7)::after,
+section.selected-7 .menu ol li:nth-child(8)::after,
+section.selected-8 .menu ol li:nth-child(9)::after,
+section.selected-9 .menu ol li:nth-child(10)::after,
+section.selected-10 .menu ol li:nth-child(11)::after,
+section.selected-11 .menu ol li:nth-child(12)::after,
+section.selected-12 .menu ol li:nth-child(13)::after,
+section.selected-13 .menu ol li:nth-child(14)::after,
+section.selected-14 .menu ol li:nth-child(15)::after,
+section.selected-15 .menu ol li:nth-child(16)::after
+
+{
+    content: url('./assets/selected_arrow.svg');
+    margin-left: 4px;
+    height: 11px;
+    line-height: 11px;
+    vertical-align: middle;
+
+  }
+
+
+section.inner-sel-1 .menu ul li:nth-child(1),
+section.inner-sel-2 .menu ul li:nth-child(2),
+section.inner-sel-3 .menu ul li:nth-child(3)
+{
+    text-decoration: underline #FFD200;
 }
-
-/* ===== DEVELOPMENT ==== */
-
-.development__info {
-    line-height: 30px;
-}
-
-.seo__info {
-    line-height: 32px;
-}
-
-
-
-
