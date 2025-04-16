@@ -6,13 +6,21 @@
     "test": "echo 'Error: no test specified' && exit 1",
     "marp": "marp",
     "marp-preview": "marp slides.md --html --theme ./my-theme.css --preview",
-    "marp-export": "marp slides.md --html --theme ./my-theme.css --pdf"
+    "marp-export": "marp slides.md --html --theme ./my-theme.css --pdf",
+    "preview": "marp slides.md --engine marp-engine.js --theme my-theme.css --html --preview",
+    "build": "marp slides.md --engine marp-engine.js --theme my-theme.css --html --pdf",
+    "dev": "nodemon renderer.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@marp-team/marp-cli": "^4.1.2"
+    "markdown-it-container": "^4.0.0"
+  },
+  "devDependencies": {
+    "@kazumatu981/markdown-it-nested-container": "^1.1.0",
+    "@marp-team/marp-cli": "^4.1.2",
+    "nodemon": "^3.1.9"
   }
 }

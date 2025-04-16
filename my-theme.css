@@ -16,8 +16,7 @@
 
 body {
     display: block;
-    margin: 0;
-    
+    margin: 0;  
 }   
 
 h1 {
@@ -54,14 +53,14 @@ ol, ul{
     flex-direction: column;
 }
 
-ol{
-    margin: 8px 34px 0 54px; 
-}
+section.layout-1 .grid {
+    display: grid;
+  grid-template-columns: 200px 530px 1090px;
+  gap: 1.5rem;
+    padding-top:172px;
+    padding-bottom: 45px;
 
-ul{
-    list-style: none;
-    padding-left: 16px;
-}
+  }
 
 /* wraps tha nav and content */
 .flex-wrapper{
@@ -128,16 +127,20 @@ ul{
     
 }
 
-/* menu styling */
+/* ======== MENU/NAV ========*/
 .menu {
     display: flex;
     flex-direction: column;
     gap: 8px;
     margin: 8px 0px 0 10px;
     max-width: 250px;
+    height: 100%;
 }
 .menu ol {
     min-width: 190px;
+    margin: 8px 34px 0 54px;
+    /* counter-reset: item; */
+    /* list-style-type: none; */
 }
 .menu li{
     padding: 0;
@@ -145,6 +148,22 @@ ul{
     font-size: 16px;
     max-width: 180px;
 }
+.menu ul {
+    list-style: none;
+    padding-left: 40px;
+}
+.menu ul>li {
+    margin-top: 5px;
+}
+
+/* trying to change the marker to not have a dot - experiment */
+/* managed but it doesn't align the text on the vertical line amymore */
+/* .menu ol>li { display: block; } */
+/* .menu ol>li::marker { 
+    content: counter(item) "  "; 
+    counter-increment: item;
+    /* padding-right:8px }*/
+
 
 /* main content: header and text */
 .main {
@@ -160,9 +179,10 @@ margin-right: 12px;
 
 /* handling the placeholder and text width*/
 .bg-placeholder{
-    margin: 0 35px 34px 28px;
+    margin: 0 0 34px 0;
     background-color: #4DBF3B;
     height: 828px;
+    width: 95%;
 }
 
 section.wide .bg-placeholder {
@@ -237,7 +257,7 @@ section.set-image-margin .content__wrapper .image__container {
     padding: 150px 0;
 }
 
-/* trying the automatic nav arrow just for the main ones now */
+/* trying the automatic nav arrow just for the main ones */
 section.selected-0 .menu ol li:nth-child(1)::after,
 section.selected-1 .menu ol li:nth-child(2)::after,
 section.selected-2 .menu ol li:nth-child(3)::after,
@@ -264,7 +284,7 @@ section.selected-15 .menu ol li:nth-child(16)::after
 
   }
 
-
+/* nuderline for sublists */
 section.inner-sel-1 .menu ul li:nth-child(1),
 section.inner-sel-2 .menu ul li:nth-child(2),
 section.inner-sel-3 .menu ul li:nth-child(3)

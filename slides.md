@@ -11,6 +11,56 @@ footer: "<div class='footer'>
   </div>"
 ---
 
+<!-- _class: selected-1 layout-1 menu-list-->
+
+<style scoped>
+.header__timeline {
+  visibility: hidden;
+}
+</style>
+
+::: grid
+
++++grid-item
+
+0. Introduction
+1. Business Objectives
+2. Solution Overview
+3. Research
+4. User Experience
+5. Wireframe
+6. Content Gathering
+7. 3D and Quality Imagery
+8. Branding and UI - Style, Feel & Mock-Ups
+9. Development
+10. SEO
+11. Analytics
+12. Live Chat
+13. Delivery
+14. Maintenance
+15. Conclusions
+
++++
+
++++grid-item
+
+# Business Objectives
+
+An informationally rich and visually engaging website would help RDDS achieve its business objectives:
+1\. Bring across the capability of the company to perform as a ‘big player’ and provide bespoke quality products in an international markets despite being seen as a UK specialist.
+2\. Expand business to the land and sea markets.
++++
+
++++grid-item
+
+<!-- placeholder for image? -->
+
+![bg-placeholder]
++++
+:::
+
+---
+
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
 </style>
