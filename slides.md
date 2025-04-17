@@ -71,22 +71,23 @@ An informationally rich and visually engaging website would help RDDS achieve it
   visibility: hidden;
 }
 .grid{
-    grid-template-columns: 200px 1550px;
+    grid-template-columns: 200px 0.5fr;
 }
 
 .grid:nth-of-type(2) {
     grid-template-columns: none;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: auto 1fr;
     padding:0;
-    gap:170px
+    width: 1545px;
+
 }
 
-.grid:nth-of-type(2) .grid-item,
+.grid:nth-of-type(2) .grid-item:nth-of-type(2){
+    padding-top:70px
+}
 .grid:nth-of-type(2) .grid-item img{
     max-width: 1540px
 }
-
-
 </style>
 
 ::: grid
@@ -539,7 +540,6 @@ Interactive 3D product experiences provide consumers with the freedom to explore
 
 .grid:nth-of-type(2) {
     grid-template-columns: none;
-    grid-template-rows: 1fr 2fr;
     padding:0;
     gap: 5px
 }

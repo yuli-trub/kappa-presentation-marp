@@ -56,10 +56,11 @@ ol, ul{
 
 .grid {
     display: grid;
-  grid-template-columns: 200px 530px 1030px;
-  gap: 50px;
-  padding-top: 50px;
+    grid-template-columns: 230px 0.6fr 1.4fr;
+    gap: 50px;
+    padding-top: 50px;
     padding-bottom: 45px;
+    width: 1870px;
 
   }
 /* header with logo */
@@ -141,7 +142,7 @@ ol, ul{
     margin: 0 0 34px 0;
     background-color: #4DBF3B;
     height: 800px;
-    width: 100%;
+    width: 1060px;
 }
 
 /* 
