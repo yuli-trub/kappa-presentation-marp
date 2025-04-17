@@ -11,10 +11,12 @@ footer: "<div class='footer'>
   </div>"
 ---
 
-<!-- _class: selected-1 layout-1 menu-list-->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+</style>
 
 <style scoped>
-.header__timeline {
+header .header__timeline {
   visibility: hidden;
 }
 </style>
@@ -24,7 +26,7 @@ footer: "<div class='footer'>
 +++grid-item
 
 0. Introduction
-1. Business Objectives
+1. Business Objectives ![arrow](./assets/selected_arrow.svg)
 2. Solution Overview
 3. Research
 4. User Experience
@@ -47,73 +49,18 @@ footer: "<div class='footer'>
 # Business Objectives
 
 An informationally rich and visually engaging website would help RDDS achieve its business objectives:
+
 1\. Bring across the capability of the company to perform as a ‘big player’ and provide bespoke quality products in an international markets despite being seen as a UK specialist.
+
 2\. Expand business to the land and sea markets.
 +++
 
 +++grid-item
 
-<!-- placeholder for image? -->
+![bg-placeholder](./assets/img_placeholder.svg)
 
-![bg-placeholder]
 +++
 :::
-
----
-
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
-</style>
-
-## <!-- ===== BUSINESS OBJECTIVES ===== -->
-
-<!-- _class: selected-1 wide -->
-<style scoped>
-.header__timeline {
-  visibility: hidden;
-}
-</style>
-
-<div class='flex-wrapper'>
-<div class="menu">
-
-0. Introduction
-1. Business Objectives
-2. Solution Overview
-3. Research
-4. User Experience
-5. Wireframe
-6. Content Gathering
-7. 3D and Quality Imagery
-8. Branding and UI - Style, Feel & Mock-Ups
-9. Development
-10. SEO
-11. Analytics
-12. Live Chat
-13. Delivery
-14. Maintenance
-15. Conclusions
-
-</div>
-
-<div class="content__wrapper">
-<div>
-
-# Business Objectives
-
-An informationally rich and visually engaging website would help RDDS achieve its business objectives:
-
-1\. Bring across the capability of the company to perform as a ‘big player’ and provide bespoke quality products in an international markets despite being seen as a UK specialist.
-2\. Expand business to the land and sea markets.
-
-</div>
-<div class='image__container'>
-<!-- placeholder for image? -->
-<div class='bg-placeholder'></div>
-
-</div>
-</div>
-</div>
 
 ---
 
@@ -123,15 +70,32 @@ An informationally rich and visually engaging website would help RDDS achieve it
 .header__timeline {
   visibility: hidden;
 }
-</style>
-<!-- _class: selected-2 layout-column set-image-margin-->
+.grid{
+    grid-template-columns: 200px 1550px;
+}
 
-<div class='flex-wrapper'>
-<div class="menu">
+.grid:nth-of-type(2) {
+    grid-template-columns: none;
+    grid-template-rows: 1fr 2fr;
+    padding:0;
+    gap:170px
+}
+
+.grid:nth-of-type(2) .grid-item,
+.grid:nth-of-type(2) .grid-item img{
+    max-width: 1540px
+}
+
+
+</style>
+
+::: grid
+
++++grid-item
 
 0. Introduction
 1. Business Objectives
-2. Solution Overview
+2. Solution Overview ![arrow](./assets/selected_arrow.svg)
 3. Research
 4. User Experience
 5. Wireframe
@@ -146,10 +110,10 @@ An informationally rich and visually engaging website would help RDDS achieve it
 14. Maintenance
 15. Conclusions
 
-</div>
++++
 
-<div class="content__wrapper">
-<div>
+:::grid
++++grid-item
 
 # Solution Overview
 
@@ -161,27 +125,30 @@ To achieve this, the website should:
 3\. Enable the team to easily update the website content in a timely manner (i.e. implement a CMS).
 4\. Be a robust SEO-tailored site that acts as an awareness tool to successfully bring across the RDDS brand, product qualities and value proposition.
 
-</div>
-<div class='image__container'>
-<img src='./assets/timeline.svg' class='solution__timeline' alt='Process timeline'>
-</div>
-</div>
++++
 
-</div>
++++grid-item
+<img src='./assets/timeline.svg' class='solution__timeline' alt='Process timeline'>
++++
+:::
 
 ---
 
 ## <!-- ===== RESEARCH 1 ===== -->
 
-<!-- _class: wide menu-extended inner-sel-1-->
+<style scoped>
+.grid-item ul li:nth-child(1){
+    text-decoration: underline #FFD200;
+}
+</style>
 
-<div class='flex-wrapper'>
-<div class="menu">
+:::grid
++++grid-item
 
 0. Introduction
 1. Business Objectives
 2. Solution Overview
-3. Research
+3. Research ![arrow](./assets/selected_arrow.svg)
    - RDDS Team
    - RDDS Target Market
    - RDDS Competition
@@ -198,10 +165,9 @@ To achieve this, the website should:
 14. Maintenance
 15. Conclusions
 
-</div>
++++
 
-<div class="content__wrapper">
-<div>
++++grid-item
 
 # Research - Team
 
@@ -221,28 +187,32 @@ This is the first phase of the process. Here we will assess key information in o
 
 \- Access and assess current visual/text assets
 
-</div>
-<div class='image__container'>
-<!-- placeholder for image? -->
-<div class='bg-placeholder'></div>
++++
 
-</div>
-</div>
-</div>
++++grid-item
+
+![bg-placeholder](./assets/img_placeholder.svg)
++++
+
+:::
 
 ---
 
 ## <!-- ===== RESEARCH 2 ===== -->
 
-<!-- _class: wide menu-extended inner-sel-2-->
+<style scoped>
+.grid-item ul li:nth-child(2){
+    text-decoration: underline #FFD200;
+}
+</style>
 
-<div class='flex-wrapper'>
-<div class="menu">
+:::grid
++++grid-item
 
 0. Introduction
 1. Business Objectives
 2. Solution Overview
-3. Research
+3. Research ![arrow](./assets/selected_arrow.svg)
    - RDDS Team
    - RDDS Target Market
    - RDDS Competition
@@ -259,10 +229,9 @@ This is the first phase of the process. Here we will assess key information in o
 14. Maintenance
 15. Conclusions
 
-</div>
++++
 
-<div class="content__wrapper">
-<div>
++++grid-item
 
 # Research
 
@@ -277,29 +246,33 @@ There's also two main relevant groups that should be taken into consideration:
 Knowledgeable (i.e. integrators)
 Less knowledgeable (i.e. procurement)
 
-</div>
-<div class='image__container'>
-<!-- placeholder for image? -->
-<div class='bg-placeholder'></div>
++++
 
-</div>
-</div>
-</div>
++++grid-item
+
+![bg-placeholder](./assets/img_placeholder.svg)
++++
+
+:::
 
 ---
 
 ## <!-- ===== UX 1 ===== -->
 
-<!-- _class: wide menu-extended inner-sel-1-->
+<style scoped>
+.grid-item ul li:nth-child(1){
+    text-decoration: underline #FFD200;
+}
+</style>
 
-<div class='flex-wrapper'>
-<div class="menu">
+:::grid
++++grid-item
 
 0. Introduction
 1. Business Objectives
 2. Solution Overview
 3. Research
-4. User Experience
+4. User Experience ![arrow](./assets/selected_arrow.svg)
    - Sitemap
    - User Scenarios
 5. Wireframe
@@ -314,10 +287,9 @@ Less knowledgeable (i.e. procurement)
 14. Maintenance
 15. Conclusions
 
-</div>
++++
 
-<div class="content__wrapper">
-<div>
++++grid-item
 
 # UX - Sitemap
 
@@ -329,29 +301,33 @@ Deliverable: A flowchart that describes the website pages and the user flow.
 
 At this point we will organise a feedback session to discuss the sitemap.
 
-</div>
-<div class='image__container'>
-<!-- placeholder for image? -->
-<div class='bg-placeholder'></div>
++++
 
-</div>
-</div>
-</div>
++++grid-item
+
+![bg-placeholder](./assets/img_placeholder.svg)
++++
+
+:::
 
 ---
 
 ## <!-- ===== UX 2 ===== -->
 
-<!-- _class: wide inner-sel-2-->
+<style scoped>
+.grid-item ul li:nth-child(2){
+    text-decoration: underline #FFD200;
+}
+</style>
 
-<div class='flex-wrapper'>
-<div class="menu">
+:::grid
++++grid-item
 
 0. Introduction
 1. Business Objectives
 2. Solution Overview
 3. Research
-4. User Experience
+4. User Experience ![arrow](./assets/selected_arrow.svg)
    - Sitemap
    - User Scenarios
 5. Wireframe
@@ -366,10 +342,9 @@ At this point we will organise a feedback session to discuss the sitemap.
 14. Maintenance
 15. Conclusions
 
-</div>
++++
 
-<div class="content__wrapper">
-<div>
++++grid-item
 
 # UX - Scenarios
 
@@ -379,30 +354,34 @@ In order to build a smooth user journey, we must make sure the website will effi
 
 Deliverable: a set of scenarios
 
-</div>
-<div class='image__container'>
-<!-- placeholder for image? -->
-<div class='bg-placeholder'></div>
++++
 
-</div>
-</div>
-</div>
++++grid-item
+
+![bg-placeholder](./assets/img_placeholder.svg)
++++
+
+:::
 
 ---
 
 ## <!-- ===== WIREFRAME ===== -->
 
-<!-- _class: wide selected-5 -->
+<style scoped>
+.grid-item ul li:nth-child(1){
+    text-decoration: underline #FFD200;
+}
+</style>
 
-<div class='flex-wrapper'>
-<div class="menu">
+:::grid
++++grid-item
 
 0. Introduction
 1. Business Objectives
 2. Solution Overview
 3. Research
 4. User Experience
-5. Wireframe
+5. Wireframe ![arrow](./assets/selected_arrow.svg)
 6. Content Gathering
 7. 3D and Quality Imagery
 8. Branding and UI - Style, Feel & Mock-Ups
@@ -414,10 +393,9 @@ Deliverable: a set of scenarios
 14. Maintenance
 15. Conclusions
 
-</div>
++++
 
-<div class="content__wrapper">
-<div>
++++grid-item
 
 # Wireframe
 
@@ -427,23 +405,21 @@ Deliverable: a Figma file showcasing the wireframe
 
 At this point we will organise a feedback session to discuss the wireframe.
 
-</div>
-<div class='image__container'>
-<!-- placeholder for image? -->
-<div class='bg-placeholder'></div>
++++
 
-</div>
-</div>
-</div>
++++grid-item
+
+![bg-placeholder](./assets/img_placeholder.svg)
++++
+
+:::
 
 ---
 
 ## <!-- ===== CONTENT GATHERING ===== -->
 
-<!-- _class: wide selected-6 -->
-
-<div class='flex-wrapper'>
-<div class="menu">
+:::grid
++++grid-item
 
 0. Introduction
 1. Business Objectives
@@ -451,7 +427,7 @@ At this point we will organise a feedback session to discuss the wireframe.
 3. Research
 4. User Experience
 5. Wireframe
-6. Content Gathering
+6. Content Gathering ![arrow](./assets/selected_arrow.svg)
 7. 3D and Quality Imagery
 8. Branding and UI - Style, Feel & Mock-Ups
 9. Development
@@ -462,10 +438,9 @@ At this point we will organise a feedback session to discuss the wireframe.
 14. Maintenance
 15. Conclusions
 
-</div>
++++
 
-<div class="content__wrapper">
-<div>
++++grid-item
 
 # Content Gathering
 
@@ -477,23 +452,27 @@ We will select the materials that would be suitable for implementation on the we
 
 At this point, we will arrange a feedback session to discuss the content we've curated.
 
-</div>
-<div class='image__container'>
-<!-- placeholder for image? -->
-<div class='bg-placeholder'></div>
++++
 
-</div>
-</div>
-</div>
++++grid-item
+
+![bg-placeholder](./assets/img_placeholder.svg)
++++
+
+:::
 
 ---
 
 ## <!-- ===== Quality Visuals - Customer Effect ===== -->
 
-<!-- _class: average inner-sel-1 -->
+<style scoped>
+.grid-item ul li:nth-child(1){
+    text-decoration: underline #FFD200;
+}
+</style>
 
-<div class='flex-wrapper'>
-<div class="menu">
+:::grid
++++grid-item
 
 0. Introduction
 1. Business Objectives
@@ -502,7 +481,7 @@ At this point, we will arrange a feedback session to discuss the content we've c
 4. User Experience
 5. Wireframe
 6. Content Gathering
-7. 3D and Quality Imagery
+7. 3D and Quality Imagery ![arrow](./assets/selected_arrow.svg)
    - Customer Effect
    - Visual Opportunities
    - Brand Benefits
@@ -515,10 +494,9 @@ At this point, we will arrange a feedback session to discuss the content we've c
 14. Maintenance
 15. Conclusions
 
-</div>
++++
 
-<div class="content__wrapper">
-<div>
++++grid-item
 
 # Quality Visuals - Customer Effect
 
@@ -536,23 +514,57 @@ Creating multiple points of view places a consumer in a setting where they can e
 
 Interactive 3D product experiences provide consumers with the freedom to explore products online as though they were in a store, while getting direct access to enriched content and customization capabilities. Most importantly, it can instill a sense of ownership even before interaction with a physical product takes place.
 
-</div>
-<div class='image__container'>
-<!-- placeholder for image? -->
-<div class='bg-placeholder'></div>
++++
 
-</div>
-</div>
-</div>
++++grid-item
+
+![bg-placeholder](./assets/img_placeholder.svg)
++++
+
+:::
 
 ---
 
 ## <!-- ===== Quality Visuals - OPPORTUNITIES ===== -->
 
-<!-- _class: average inner-sel-2 layout-column image-center-->
+<style scoped>
+.grid-item ul li:nth-child(2){
+    text-decoration: underline #FFD200;
+}
 
-<div class='flex-wrapper'>
-<div class="menu">
+.grid{
+    grid-template-columns: 200px 1550px;
+    gap: 75px
+}
+
+.grid:nth-of-type(2) {
+    grid-template-columns: none;
+    grid-template-rows: 1fr 2fr;
+    padding:0;
+    gap: 5px
+}
+
+.grid:nth-of-type(2) .grid-item,
+.grid:nth-of-type(2) .grid-item p {
+    max-width: 1540px;
+}
+
+.grid:nth-of-type(2) .grid-item p{
+width:1290px;
+      margin: 0 auto;
+    text-align: center;
+
+}
+
+.grid:nth-of-type(2) .grid-item p img {
+    height:auto
+}
+
+
+</style>
+
+:::grid
++++grid-item
 
 0. Introduction
 1. Business Objectives
@@ -561,7 +573,7 @@ Interactive 3D product experiences provide consumers with the freedom to explore
 4. User Experience
 5. Wireframe
 6. Content Gathering
-7. 3D and Quality Imagery
+7. 3D and Quality Imagery ![arrow](./assets/selected_arrow.svg)
    - Customer Effect
    - Visual Opportunities
    - Brand Benefits
@@ -574,30 +586,35 @@ Interactive 3D product experiences provide consumers with the freedom to explore
 14. Maintenance
 15. Conclusions
 
-</div>
++++
 
-<div class="content__wrapper">
-<div>
+:::grid
+
++++grid-item
 
 # Quality Visuals - Variation Opportunities
 
-</div>
-<div>
++++
+
++++grid-item
 
 ![image](./assets/opportunities.png)
 
-</div>
-</div>
-</div>
++++
+:::
 
 ---
 
 ## <!-- ===== Quality Visuals - BRAND BENEFITS ===== -->
 
-<!-- _class: inner-sel-3 medium -->
+<style scoped>
+.grid-item ul li:nth-child(3){
+    text-decoration: underline #FFD200;
+}
+</style>
 
-<div class='flex-wrapper'>
-<div class="menu">
+:::grid
++++grid-item
 
 0. Introduction
 1. Business Objectives
@@ -606,7 +623,7 @@ Interactive 3D product experiences provide consumers with the freedom to explore
 4. User Experience
 5. Wireframe
 6. Content Gathering
-7. 3D and Quality Imagery
+7. 3D and Quality Imagery ![arrow](./assets/selected_arrow.svg)
    - Customer Effect
    - Visual Opportunities
    - Brand Benefits
@@ -619,10 +636,9 @@ Interactive 3D product experiences provide consumers with the freedom to explore
 14. Maintenance
 15. Conclusions
 
-</div>
++++
 
-<div class="content__wrapper">
-<div>
++++grid-item
 
 # Quality Visuals - Brand Benefits
 
@@ -637,24 +653,21 @@ Easy to distribute
 Visitors engagement
 Set products apart from competition
 
-</div>
-<div> class='image__container'
++++
 
-<!-- placeholder for image? -->
-<div class='bg-placeholder'></div>
++++grid-item
 
-</div>
-</div>
-</div>
+![bg-placeholder](./assets/img_placeholder.svg)
++++
+
+:::
 
 ---
 
 ## <!-- ===== BRANDING ===== -->
 
-<!-- _class: selected-8 medium -->
-
-<div class='flex-wrapper'>
-<div class="menu">
+:::grid
++++grid-item
 
 0. Introduction
 1. Business Objectives
@@ -664,7 +677,7 @@ Set products apart from competition
 5. Wireframe
 6. Content Gathering
 7. 3D and Quality Imagery
-8. Branding and UI - Style, Feel & Mock-Ups
+8. Branding and UI - Style, Feel & Mock-Ups ![arrow](./assets/selected_arrow.svg)
 9. Development
 10. SEO
 11. Analytics
@@ -673,10 +686,9 @@ Set products apart from competition
 14. Maintenance
 15. Conclusions
 
-</div>
++++
 
-<div class="content__wrapper">
-<div>
++++grid-item
 
 # Branding and UI - Style, Feel & Mock-Ups
 
@@ -692,24 +704,36 @@ We will organise a feedback session on the materials provided at this stage.
 
 KPIs: Time Spent on Page, Time Required to Complete a Task (this should be reduced),
 
-</div>
-<div> class='image__container'
++++
 
-<!-- placeholder for image? -->
-<div class='bg-placeholder'></div>
++++grid-item
 
-</div>
-</div>
-</div>
+![bg-placeholder](./assets/img_placeholder.svg)
++++
+
+:::
 
 ---
 
 ## <!-- ===== DEVELOPMENT ===== -->
 
-<!-- _class: selected-9 small -->
+<style scoped>
+.header__timeline {
+  visibility: hidden;
+}
+.grid{
+    grid-template-columns: 210px 550px 620px 330px;
+}
 
-<div class='flex-wrapper'>
-<div class="menu">
+.grid-item p{
+    max-width:540px;
+}
+
+</style>
+
+:::grid
+
++++grid-item
 
 0. Introduction
 1. Business Objectives
@@ -720,7 +744,7 @@ KPIs: Time Spent on Page, Time Required to Complete a Task (this should be reduc
 6. Content Gathering
 7. 3D and Quality Imagery
 8. Branding and UI - Style, Feel & Mock-Ups
-9. Development
+9. Development ![arrow](./assets/selected_arrow.svg)
 10. SEO
 11. Analytics
 12. Live Chat
@@ -728,10 +752,9 @@ KPIs: Time Spent on Page, Time Required to Complete a Task (this should be reduc
 14. Maintenance
 15. Conclusions
 
-</div>
++++
 
-<div class="content__wrapper">
-<div>
++++grid-item
 
 # Development
 
@@ -743,9 +766,9 @@ Furthermore, we'll set and optimise the website for different devices and the pa
 
 For this type of activity we use multiple tools from Google’s Page Speed Insights to Sonar and GT Metrix.
 
-</div>
++++
 
-<div>
++++grid-item
 
 # Analytics: GA and Hotjar
 
@@ -765,25 +788,27 @@ Lead Conversion Rate (configure goals in GA)
 
 We are well versed in building GDPR-compliant data capturing methods on websites.
 
-</div>
++++
 
-<div> class='image__container'
++++grid-item
 
-<!-- placeholder for image? -->
-<div class='bg-placeholder'></div>
+![bg-placeholder](./assets/img_placeholder.svg)
++++
 
-</div>
-</div>
-</div>
+:::
 
 ---
 
 ## <!-- ===== ANALYTICS ===== -->
 
-<!-- _class: inner-sel-2 medium -->
+<style scoped>
+.grid-item ul li:nth-child(1){
+    text-decoration: underline #FFD200;
+}
+</style>
 
-<div class='flex-wrapper'>
-<div class="menu">
+:::grid
++++grid-item
 
 0. Introduction
 1. Business Objectives
@@ -796,7 +821,7 @@ We are well versed in building GDPR-compliant data capturing methods on websites
 8. Branding and UI - Style, Feel & Mock-Ups
 9. Development
 10. SEO
-11. Analytics
+11. Analytics ![arrow](./assets/selected_arrow.svg)
     - GA and HotJar
     - AlbaCross and LeadWorx
 12. Live Chat
@@ -804,10 +829,9 @@ We are well versed in building GDPR-compliant data capturing methods on websites
 14. Maintenance
 15. Conclusions
 
-</div>
++++
 
-<div class="content__wrapper">
-<div>
++++grid-item
 
 # Analytics - AlbaCross and LeadWorx
 
@@ -819,24 +843,27 @@ We connect the tools in the backend and using a database and geo-tracking (i.e. 
 
 This is especially valuable if RDDS is considering cold outreach, as there is a high probability that visitors are looking for a supplier or researching.
 
-</div>
-<div> class='image__container'
++++
 
-<!-- placeholder for image? -->
-<div class='bg-placeholder'></div>
++++grid-item
 
-</div>
-</div>
-</div>
+![bg-placeholder](./assets/img_placeholder.svg)
++++
+
+:::
 
 ---
 
 ## <!-- ===== SEO 1 ===== -->
 
-<!-- _class: inner-sel-1 medium -->
+<style scoped>
+.grid-item ul li:nth-child(1){
+    text-decoration: underline #FFD200;
+}
+</style>
 
-<div class='flex-wrapper'>
-<div class="menu">
+:::grid
++++grid-item
 
 0. Introduction
 1. Business Objectives
@@ -848,7 +875,7 @@ This is especially valuable if RDDS is considering cold outreach, as there is a 
 7. 3D and Quality Imagery
 8. Branding and UI - Style, Feel & Mock-Ups
 9. Development
-10. SEO
+10. SEO ![arrow](./assets/selected_arrow.svg)
     - Research
     - Backlinking
 11. Analytics
@@ -857,10 +884,9 @@ This is especially valuable if RDDS is considering cold outreach, as there is a 
 14. Maintenance
 15. Conclusions
 
-</div>
++++
 
-<div class="content__wrapper">
-<div>
++++grid-item
 
 # SEO - Research
 
@@ -872,24 +898,28 @@ With this data we can identify the competition's rankings, underused keywords as
 
 KPI: The success of our SEO strategy will be measured by the number of backlinks, the domain and keywords rankings.
 
-</div>
-<div> class='image__container'
++++
 
-<!-- placeholder for image? -->
-<div class='bg-placeholder'></div>
++++grid-item
 
-</div>
-</div>
-</div>
+![bg-placeholder](./assets/img_placeholder.svg)
+
++++
+
+:::
 
 ---
 
 ## <!-- ===== SEO 2 ===== -->
 
-<!-- _class: inner-sel-2 medium -->
+<style scoped>
+.grid-item ul li:nth-child(2){
+    text-decoration: underline #FFD200;
+}
+</style>
 
-<div class='flex-wrapper'>
-<div class="menu">
+:::grid
++++grid-item
 
 0. Introduction
 1. Business Objectives
@@ -901,7 +931,7 @@ KPI: The success of our SEO strategy will be measured by the number of backlinks
 7. 3D and Quality Imagery
 8. Branding and UI - Style, Feel & Mock-Ups
 9. Development
-10. SEO
+10. SEO ![arrow](./assets/selected_arrow.svg)
     - Research
     - Backlinking
 11. Analytics
@@ -910,10 +940,9 @@ KPI: The success of our SEO strategy will be measured by the number of backlinks
 14. Maintenance
 15. Conclusions
 
-</div>
++++
 
-<div class="content__wrapper">
-<div>
++++grid-item
 
 # SEO - Backlinking
 
@@ -929,24 +958,22 @@ We do recommend that once the number of backlinks in your field has run out, to 
 
 KPIs: Domain Trustworthiness, Number of Backlinks, Keyword rankings
 
-</div>
-<div> class='image__container'
++++
 
-<!-- placeholder for image? -->
-<div class='bg-placeholder'></div>
++++grid-item
 
-</div>
-</div>
-</div>
+![bg-placeholder](./assets/img_placeholder.svg)
++++
+
+:::
 
 ---
 
 ## <!-- LIVE CHAT -->
 
-<!-- class: narrow selected-12 -->
+:::grid
 
-<div class='flex-wrapper'>
-<div class="menu">
++++grid-item
 
 0. Introduction
 1. Business Objectives
@@ -960,15 +987,14 @@ KPIs: Domain Trustworthiness, Number of Backlinks, Keyword rankings
 9. Development
 10. SEO
 11. Analytics
-12. Live Chat
+12. Live Chat ![arrow](./assets/selected_arrow.svg)
 13. Delivery
 14. Maintenance
 15. Conclusions
 
-</div>
++++
 
-<div class="content__wrapper">
-<div>
++++grid-item
 
 # Add-on Recommendation - Live Chat
 
@@ -985,24 +1011,22 @@ You control the flow. The first few replies can be automatised and you can choos
 
 KPIs: Number of qualified leads, Sales conversion rate, Sales team satisfaction (assessed through questionnaires), Time spent to complete sales tasks,
 
-</div>
-<div> class='image__container'
++++
 
-<!-- placeholder for image? -->
-<div class='bg-placeholder'></div>
++++grid-item
 
-</div>
-</div>
-</div>
+![bg-placeholder](./assets/img_placeholder.svg)
++++
+
+:::
 
 ---
 
 ## <!-- =====  DELIVERY ===== -->
 
-<!-- _class: selected-13 medium -->
+:::grid
 
-<div class='flex-wrapper'>
-<div class="menu">
++++grid-item
 
 0. Introduction
 1. Business Objectives
@@ -1017,35 +1041,32 @@ KPIs: Number of qualified leads, Sales conversion rate, Sales team satisfaction 
 10. SEO
 11. Analytics
 12. Live Chat
-13. Delivery
+13. Delivery ![arrow](./assets/selected_arrow.svg)
 14. Maintenance
 15. Conclusions
 
-</div>
++++
 
-<div class="content__wrapper">
-<div>
++++grid-item
 
 # Delivery
 
-</div>
-<div> class='image__container'
++++
 
-<!-- placeholder for image? -->
-<div class='bg-placeholder'></div>
++++grid-item
 
-</div>
-</div>
-</div>
+![bg-placeholder](./assets/img_placeholder.svg)
++++
+
+:::
 
 ---
 
 ## <!-- ===== CONCLUSIONS ===== -->
 
-<!-- _class: selected-15 medium -->
+:::grid
 
-<div class='flex-wrapper'>
-<div class="menu">
++++grid-item
 
 0. Introduction
 1. Business Objectives
@@ -1062,21 +1083,21 @@ KPIs: Number of qualified leads, Sales conversion rate, Sales team satisfaction 
 12. Live Chat
 13. Delivery
 14. Maintenance
-15. Conclusions
+15. Conclusions ![arrow](./assets/selected_arrow.svg)
 
-</div>
++++
 
-<div class="content__wrapper">
-<div>
++++grid-item
 
 # Conclusions
 
-</div>
-<div> class='image__container'
++++
 
-<!-- placeholder for image? -->
-<div class='bg-placeholder'></div>
++++grid-item
 
-</div>
-</div>
-</div>
+![bg-placeholder](./assets/img_placeholder.svg)
++++
+
+:::
+
+---

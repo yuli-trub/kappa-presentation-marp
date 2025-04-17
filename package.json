@@ -9,7 +9,7 @@
     "marp-export": "marp slides.md --html --theme ./my-theme.css --pdf",
     "preview": "marp slides.md --engine marp-engine.js --theme my-theme.css --html --preview",
     "build": "marp slides.md --engine marp-engine.js --theme my-theme.css --html --pdf",
-    "dev": "nodemon renderer.js"
+    "dev": "nodemon --watch slides.md --watch my-theme.css --exec 'node renderer.js'"
   },
   "keywords": [],
   "author": "",

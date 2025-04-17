@@ -2,7 +2,7 @@ const markdownItContainer = require("markdown-it-container");
 
 // adding the extensiont to the engine
 module.exports = ({ marp }) => {
-  marp.markdown.use(markdownItContainer);
+  marp.markdown.use(markdownItContainer, "grid");
 
   return marp;
 };

@@ -42,7 +42,8 @@ p {
     letter-spacing: -0.5px;
     color: #000000;
     line-height: 30px;
-    margin-bottom: 25px
+    margin-bottom: 25px;
+    margin-top: 0;
 }
 
 ol, ul{
@@ -53,39 +54,17 @@ ol, ul{
     flex-direction: column;
 }
 
-section.layout-1 .grid {
+.grid {
     display: grid;
-  grid-template-columns: 200px 530px 1090px;
-  gap: 1.5rem;
-    padding-top:172px;
+  grid-template-columns: 200px 530px 1030px;
+  gap: 50px;
+  padding-top: 50px;
     padding-bottom: 45px;
 
   }
-
-/* wraps tha nav and content */
-.flex-wrapper{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-top: 172px;
-    height:100%;
-
-}
-
-/* wraps the main text bit and the placeholder */
-.content__wrapper{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    height:100%;
-    width: 100%;
-}
-
-/* ===== COMMON ===== */
-
 /* header with logo */
 .header{
-    position: fixed;
+    /* position: fixed; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -128,136 +107,44 @@ section.layout-1 .grid {
 }
 
 /* ======== MENU/NAV ========*/
-.menu {
+.grid-item ol  {
     display: flex;
     flex-direction: column;
-    gap: 8px;
-    margin: 8px 0px 0 10px;
-    max-width: 250px;
+    gap: 10px;
     height: 100%;
-}
-.menu ol {
     min-width: 190px;
     margin: 8px 34px 0 54px;
-    /* counter-reset: item; */
-    /* list-style-type: none; */
 }
-.menu li{
+.grid-item ol  li{
     padding: 0;
-    margin-top: 8px;
     font-size: 16px;
     max-width: 180px;
 }
-.menu ul {
+.grid-item ol  ul {
     list-style: none;
     padding-left: 40px;
 }
-.menu ul>li {
+.grid-item ol  ul>li {
     margin-top: 5px;
 }
 
-/* trying to change the marker to not have a dot - experiment */
-/* managed but it doesn't align the text on the vertical line amymore */
-/* .menu ol>li { display: block; } */
-/* .menu ol>li::marker { 
-    content: counter(item) "  "; 
-    counter-increment: item;
-    /* padding-right:8px }*/
+.grid-item ol li img {
+    margin-left: 4px;
+    height: 11px;  
+      margin-top: 4px;
 
-
-/* main content: header and text */
-.main {
-margin-right: 12px;
 }
-
-/* text block */
-.content__info{
-    width: 470px;
-}
-
 
 
 /* handling the placeholder and text width*/
-.bg-placeholder{
+.grid-item p img {
     margin: 0 0 34px 0;
     background-color: #4DBF3B;
-    height: 828px;
-    width: 95%;
+    height: 800px;
+    width: 100%;
 }
 
-section.wide .bg-placeholder {
-
-    width: 1095px;
-
-}
-section.wide p {
-    max-width: 470px;
-}
-
-section.medium .bg-placeholder{
-    width: 950px;
-}
-section.medium p {
-    max-width: 530px;
-}
-
-section.small .bg-placeholder{
-    width: 305px;
-}
-section.small p {
-    max-width: 530px;
-}
-
-section.narrow .bg-placeholder{
-    width: 567px;
-}
-
-section.narrow p {
-    max-width: 530px;
-}
-
-section.average .bg-placeholder{
-    width: 785px;
-}
-section.average p {
-    max-width: 710px;
-}
-
-/* the arrow in the nav */
-
-section .menu img{
-    height: 11px;
-    margin-left: 6px;
-}
-
-/* switch to column layout */
-section.layout-column .content__wrapper{
-    max-width: 1480px;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-section.image-center .content__wrapper img{
-    position: relative;
-    height: 738px;
-    width: 1290px;
-    margin: 0 auto;
-}
-section.image-center p{
-    max-width: 100%;
-    margin: 0 auto;
-    text-align: center;
-}
-
-section.image-center .content__wrapper{
-   align-items: normal;
-}
-
-section.set-image-margin .content__wrapper .image__container {
-    padding: 150px 0;
-}
-
-/* trying the automatic nav arrow just for the main ones */
+/* 
 section.selected-0 .menu ol li:nth-child(1)::after,
 section.selected-1 .menu ol li:nth-child(2)::after,
 section.selected-2 .menu ol li:nth-child(3)::after,
@@ -284,10 +171,11 @@ section.selected-15 .menu ol li:nth-child(16)::after
 
   }
 
-/* nuderline for sublists */
+
 section.inner-sel-1 .menu ul li:nth-child(1),
 section.inner-sel-2 .menu ul li:nth-child(2),
 section.inner-sel-3 .menu ul li:nth-child(3)
 {
     text-decoration: underline #FFD200;
 }
+ */

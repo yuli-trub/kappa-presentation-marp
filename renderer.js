@@ -26,7 +26,12 @@ const markdown = fs.readFileSync("./slides.md", "utf8");
 
 const { html, css } = marpit.render(markdown);
 
-fs.writeFileSync(
-  "output.html",
-  `<html><head><style>${css}</style></head><body>${html}</body></html>`
-);
+const htmlFile = `
+<!DOCTYPE html>
+<html><body>
+  <style>${css}</style>
+  ${html}
+</body></html>
+`;
+
+fs.writeFileSync("output.html", htmlFile.trim());
